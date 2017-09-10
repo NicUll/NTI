@@ -1,19 +1,21 @@
 
+
 html {
     box-sizing: border-box;
 }
+
 
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ul{
+body, h1, h2, h3, h4, h5, h6, ul, p{
     margin: 0;
     padding: 0;
 }
 
 h3, p{
-    color: #DF7401;
+    color: rgb(153, 102, 51);
 }
 
 body{
@@ -23,29 +25,32 @@ body{
 }
 
 .recipe{
+    width: 400px;
+    padding: 100px 0px 60px 25px;
+    margin: 200px auto 200px auto;
+    
     background-color: #F3F781;
-    width: 380px;
-    border: 10px solid #DF7401;
+    border: 12px solid rgb(204, 122, 0);
     border-radius: 10%;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.6);
     
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    
-    margin: auto;
-    margin-top: 100px;
+    line-height: 1.5em;
+    font-family: 'Bad Script';
 }
 
 .recipe h3{
-    padding-bottom: 30px;
-    font-size: 50px;
-    font-family: "Brush Script Std";
+    margin-bottom: 50px;
+    font-size: 3.5em;
 }
 
-.recipe p{
-    margin: 4px;
+#intro{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 40px;
 }
 
-.subtitle{
-    margin-bottom: 10px;
+#ingredients{
+    font-weight: bold;
 }
+
+
