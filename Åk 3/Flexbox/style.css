@@ -1,0 +1,96 @@
+/* Enkel CSS-reset */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 5%;
+    counter-reset: example;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+#maincontainer {
+    height: 100%;
+}
+.flexdemo {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-top: 10px solid darkblue;
+}
+.title {
+    position: relative;
+    display: inline-block;
+    top: -14px;
+    left: 8px;
+    background: white;
+    border-radius: 20px;
+}
+.flexdemo div h3 {
+    width: 100%;
+    font-family: monospace;
+    margin: 0 3px 0 3px;
+}
+.flexdemo div h3::after {
+    counter-increment: example;
+    content: " Exempel " counter(example);
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    counter-reset: flex-element-count;
+}
+.flexelement {
+    width: 60px;
+    line-height: 4px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+}
+.flexelement::after {
+    counter-increment: flex-element-count;
+    content: counter(flex-element-count);
+}
+
+.element1{
+    background-color: RGB(75, 45, 115);
+}
+
+.element2{
+    background-color: RGB(28, 5, 58);
+}
+
+.element3{
+    background-color: RGB(143, 120, 173);
+}
+
+.element4{
+    background-color: RGB(49, 21, 87);
+}
+
+.element5{
+    background-color: RGB(107, 78, 144)
+}
+
+#flex2{
+    flex-flow:row;
+}

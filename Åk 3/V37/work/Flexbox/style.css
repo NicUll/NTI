@@ -1,0 +1,129 @@
+/* Enkel CSS-reset */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 5%;
+    counter-reset: example;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+#maincontainer {
+    height: 100%;
+}
+.flexdemo {
+    width: 50%;
+    height: 50%;
+    float: left;
+    border: 2px solid black;
+    border-top: 10px solid black;
+}
+.title {
+    position: relative;
+    display: inline-block;
+    top: -14px;
+    left: 8px;
+    background: white;
+    border-radius: 20px;
+}
+.flexdemo div h3 {
+    width: 100%;
+    font-family: monospace;
+    margin: 0 3px 0 3px;
+}
+.flexdemo div h3::after {
+    counter-increment: example;
+    content: " Exempel " counter(example);
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    counter-reset: flex-element-count;
+    padding: 4px;
+    padding-bottom: 20px;
+}
+
+#flex1 {
+    justify-content: space-around;
+}
+#flex2 {
+    flex-flow: column;
+}
+#flex3 {
+    flex-flow: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#flex4{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+
+.flexelement {
+    width: 60px;
+    height: 60px;
+    line-height: 4px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    text-align: center;
+    border-radius: 3px;
+    /*box-shadow: 2px 2px 2px #888888;*/
+}
+.flexelement::after {
+    font-size: 24px;
+    color: white;
+    counter-increment: flex-element-count;
+    content: counter(flex-element-count);
+}
+.element1 {
+    background-color: RGB(250, 10, 10);
+}
+.element2 {
+    background-color: RGB(70, 180, 10);
+}
+.element3 {
+    background-color: RGB(220,200,0);
+}
+.element4 {
+    background-color: RGB(0, 220, 220);
+}
+.element5 {
+    background-color: RGB(0, 0, 220)
+}
+
+#f3e3{
+    align-self: flex-end;
+}
+
+#f4e3{
+    height: 90px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+
+p::before{
+    content: "Hej";
+}
+
+

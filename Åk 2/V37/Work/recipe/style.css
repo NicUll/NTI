@@ -1,0 +1,51 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+h3, p{
+    color: #DF7401;
+}
+
+body{
+    background-image: url(appelscones.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recipe{
+    background-color: #F3F781;
+    width: 380px;
+    border: 10px solid #DF7401;
+    border-radius: 10%;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    
+    margin: auto;
+    margin-top: 100px;
+}
+
+.recipe h3{
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-family: "Brush Script Std";
+}
+
+.recipe p{
+    margin: 4px;
+}
+
+.subtitle{
+    margin-bottom: 10px;
+}
