@@ -10,3 +10,29 @@ body, h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
     padding: 0;
 }
+
+
+
+#content{
+    margin:auto;
+    margin-top: 180px;
+    padding: 30px;
+    width: 45%;
+    
+    min-width: 450px;
+    background-color: lightgoldenrodyellow;
+}
+
+#top-nav{
+    display: block;
+}
+
+.link-box{
+    display: block;
+    float: left;
+    width: 25%;
+    background-color: burlywood;
+    text-decoration: none;
+    color: black;
+    padding:10px;
+}
