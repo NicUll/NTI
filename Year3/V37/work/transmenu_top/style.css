@@ -20,7 +20,6 @@ p{
 }
 
 header{
-    position: fixed;
     top:0;
     width: 100%;
     background-color: white;
@@ -28,18 +27,7 @@ header{
 
 }
 
-#topbox{
-    width: 40%;
-    min-width: 600px;
-    background-color: white;
-    position: fixed;
-    top: 86px;
-    height: 60px;
 
-    padding: 0;
-    margin: auto;
-    
-}
 
 #top-bar{
     position: relative;
@@ -53,28 +41,35 @@ header{
     
 }
 
+
+
 #title{
     font-family: sans-serif;
     font-size: 3em;
     margin:0;
+    font-variant: small-caps;
+}
+
+#middle{
+    width: 40%;
+    min-width: 600px;
+    margin: 0 auto 10% auto;
 }
 
 #top-menu{
     margin:auto;
-    position: fixed;
-    padding-left: 15px;
-    top:100px;
-    display: flex;
+    position: relative;
+    top: 0;
+    display:block;
     width: 100%;
-    /*
-    box-shadow: 0 2px 3px rgba(0,0,0,0.5);*/
+    background-color: white;
 }
 
 .top-menu-link{
-    /*width: 150px;*/
-    min-width: 150px;
-    
-    padding: 10px 0 10px 10px;
+    padding:10px;
+    display: block;
+    float: left;
+    width: 25%;
     background-color: rgba(120,180,240,0.2);
     color: black;
     text-decoration: none;
@@ -87,7 +82,7 @@ header{
 .top-menu-link:hover{
     background-color: rgba(120,180,240,1.0);
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-    transform: translate(0, -10px);
+    transform: translate(0, 10px);
     transition: all 0.4s ease-out;
 }
 
@@ -96,14 +91,10 @@ header{
     color:white;
 }
 
-#middle{
-    width: 40%;
-    min-width: 600px;
-    margin: 0 auto 10% auto;
-}
+
 
 #content{
-    padding-top: 20%;
+    padding-top: 10%;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 5%;
