@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul{
+
+}
+
+#testbox{
+    width: 200px;
+    height: 100px;
+    margin:auto;
+    background-color: red;
+}
+
+#testbox:hover{
+    transform: scale(2,2);
+    transition: all 2s ease-in;
+}
+
+#testbox:active{
+    transform: translate(0,100px);
+    transition: all 0.2s ease-in-out;
+}

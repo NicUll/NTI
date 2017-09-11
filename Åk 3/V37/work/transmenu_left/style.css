@@ -64,9 +64,6 @@ header{
     display: block;
     padding: 10px 0 10px 10px;
     
-    
-
-    
     background-color: rgba(120,180,240,0.2);
     color: black;
     text-decoration: none;
@@ -79,8 +76,8 @@ header{
 .side-menu-link:hover{
     background-color: rgba(120,180,240,1.0);
     box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-    transform: translate(20px, 0);
-    transition: all 0.4s ease-out;
+    transform: translate(2px, -2px);
+    transition: all 0.2s ease-out;
 }
 
 .active{
