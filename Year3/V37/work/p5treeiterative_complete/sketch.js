@@ -1,11 +1,30 @@
 var angle = 0;
-var slider;
+var len_slider;
+var angle_slider;
+
+function centerCanvas() {
+    var x = (windowWidth - width) / 2;
+    var y = (windowHeight - height) / 2
+    cnv.position(x, y);
+
+    len_slider.position(x,y+height);
+    angle_slider.position(x,y+height+20);
+    
+}
 
 function setup(){
-    createCanvas(400,600);
+    cnv = createCanvas(400,400);
+    
     angle_slider = createSlider(0, PI/3, PI/8, 0.01);
     len_slider = createSlider(0, 200, 100, 2);
     
+    centerCanvas();
+
+
+}
+
+function windowResized(){
+    centerCanvas();
 }
 
 function draw(){

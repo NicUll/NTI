@@ -16,10 +16,12 @@ body, h1, h2, h3, h4, h5, h6, p, ul{
 #content{
     margin:auto;
     margin-top: 180px;
-    padding: 30px;
+    padding-bottom: 30px;
+    
     width: 45%;
     
     min-width: 450px;
+    min-height: 300px;
     background-color: lightgoldenrodyellow;
 }
 
@@ -35,4 +37,21 @@ body, h1, h2, h3, h4, h5, h6, p, ul{
     text-decoration: none;
     color: black;
     padding:10px;
+    text-align: center;
+}
+
+#text-content{
+    padding: 30px;
+    padding-top: 80px;
+    line-height: 1.8em;
+
+}
+
+#text-content h3{
+    font-size: 2.3em;
+    margin-bottom: 10px;
+}
+
+#text-content p{
+    font-size: 1.3em;
 }

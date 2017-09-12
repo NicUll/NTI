@@ -1,0 +1,16 @@
+Alternativ 1:
+-Fokus på CSS/HTML, positionering-
+
+Fotogalleri, på följande form: https://wireframe.cc/i6jMFB
+(Bakgrundsfärgen spelar ingen roll, enbart med som exempel)
+
+
+Alternativ 2:
+-Fokus på programmering, framförallt "random"-
+
+Oklickbar knapp.
+Programmera en knapp som flyttar sig, när musen är över den, och är omöjlig för
+användaren att klicka på.
+-Text på: "Klicka mig"
+-Dels flytta på sig
+-Dels "stanna kvar" men ändra storlek/form
