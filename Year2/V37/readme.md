@@ -1,8 +1,11 @@
 Ta bort underline på länkar:
+```css
 text-decoration: none
-
+```
 Ändra radavstånd:
+```css
 line-height: 2em;
+```
 
 Klasser och ID:
 I HTML, 
