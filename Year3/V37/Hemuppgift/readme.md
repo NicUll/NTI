@@ -38,6 +38,8 @@ Om ni av någon anledning inte kan slutföra uppgiften eller problem uppstår, h
 
 Det kommer inte bli någon gruppredovisning denna gång, men var beredda på att på fredagen (22/9) lite översiktligt kunna
 stega igenom er kod enskilt med mig. Med andra ord, förstå er kod!
+
+Uppgiften är individuell, men jag uppmuntrar att ni stöttar varandra.
   
 ## Teori
 
