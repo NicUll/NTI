@@ -1,11 +1,11 @@
 LÄS IGENOM HELA UPPGIFTSBESKRIVNINGEN
 Så att du inte missar en punkt som måste finnas med
 
-##Alternativ 1:
-####-Fokus på CSS/HTML, positionering-
+## Alternativ 1:
+#### -Fokus på CSS/HTML, positionering-
 
 
-#####<Obligatorisk del>
+##### <Obligatorisk del>
 Fotogalleri, på följande form: https://wireframe.cc/i6jMFB
 (Bakgrundsfärgen spelar ingen roll, enbart med som exempel)
 
@@ -21,7 +21,7 @@ Lös först hur ni gör en låda med en bild och en titel under bilden.
 Lös sedan hur ni gör för att placera flera sådana lådor efter varandra, använd klasser!
 </Obligatorisk del>
 
-#####<Vill helst se>
+##### <Vill helst se>
 Bra/tydliga namn på id:n och klasser.
 Bra ordning i er CSS.
 Användning av "em" för typsnittstorlek.
@@ -31,14 +31,14 @@ Inga övriga krav på design (färg, typsnitt, etc).
 
 
 
-##Alternativ 2:
-####-Fokus på programmering, framförallt "random"-
+## Alternativ 2:
+#### -Fokus på programmering, framförallt "random"-
 
 Oklickbar knapp.
 Programmera en knapp som flyttar sig, när musen är över den, och är omöjlig för
 användaren att klicka på.
 
-#####<Obligatorisk del>
+##### <Obligatorisk del>
 -Text på: "Klicka mig"
 -Dels flytta på sig
 -Dels "stanna kvar" men ändra storlek/form
