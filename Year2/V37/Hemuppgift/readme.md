@@ -5,7 +5,7 @@ Så att du inte missar en punkt som måste finnas med
 #### -Fokus på CSS/HTML, positionering-
 
 
-##### <Obligatorisk del>
+##### Obligatorisk del
 Fotogalleri, på följande form: https://wireframe.cc/i6jMFB
 (Bakgrundsfärgen spelar ingen roll, enbart med som exempel)
 
@@ -19,13 +19,13 @@ stilattribut i CSS-en, för en klass som inte ens finns någonstans i er HTML-ko
 Tips för placering av bilder:
 Lös först hur ni gör en låda med en bild och en titel under bilden.
 Lös sedan hur ni gör för att placera flera sådana lådor efter varandra, använd klasser!
-</Obligatorisk del>
 
-##### <Vill helst se>
+
+##### Vill helst se
 Bra/tydliga namn på id:n och klasser.
 Bra ordning i er CSS.
 Användning av "em" för typsnittstorlek.
-</Vill helst se>
+
 
 Inga övriga krav på design (färg, typsnitt, etc).
 
@@ -38,7 +38,7 @@ Oklickbar knapp.
 Programmera en knapp som flyttar sig, när musen är över den, och är omöjlig för
 användaren att klicka på.
 
-##### <Obligatorisk del>  
+##### Obligatorisk del 
 -Text på: "Klicka mig"  
 -Dels flytta på sig  
 -Dels "stanna kvar" men ändra storlek/form  
@@ -50,7 +50,7 @@ Knappen ska även ibland ändra storlek/form (varannan gång går också bra om 
 
 Det är tillåtet för knappen att vid det tillfälle den byter plats/form, råka byta plats/form så att den en kort stund hamnar under musen ändå, så länge den direkt sen byter plats/form.
 
-</Obligatorisk del>
+Inga övriga krav
 
 
 Lycka Till
