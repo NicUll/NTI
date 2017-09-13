@@ -38,12 +38,12 @@ Oklickbar knapp.
 Programmera en knapp som flyttar sig, när musen är över den, och är omöjlig för
 användaren att klicka på.
 
-##### <Obligatorisk del>
--Text på: "Klicka mig"
--Dels flytta på sig
--Dels "stanna kvar" men ändra storlek/form
+##### <Obligatorisk del>  
+-Text på: "Klicka mig"  
+-Dels flytta på sig  
+-Dels "stanna kvar" men ändra storlek/form  
 
-Knappen ska alltså kunna flytta sig, och den måste(!!) då hålla sig inom webbläsaren.
+Knappen ska alltså kunna flytta sig, och den måste(!!) då hålla sig inom webbläsaren.  
 Den får varken vara helt, eller delvis utanför.
 
 Knappen ska även ibland ändra storlek/form (varannan gång går också bra om det känns svårt att slumpa), den ska då ändra storlek form på ett sådant sätt att den igen hamnar på en oklickbar plats. 
