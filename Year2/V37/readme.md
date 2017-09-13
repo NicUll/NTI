@@ -1,10 +1,20 @@
-Ta bort underline på länkar:
+# Sammanfattning vecka 37
+
+## Lite användbar kod
+
+### HTML
+
+|Tagg|Kommentar|Typiska Attribut|
+|----|---------|----------------|
+|```<div>```|Div som i division, vanligt att gruppera element genom att innesluta dem i "div"ar.| Inga specifika|
+|```<a>```|Anchor-element. Används för länkar.|href="url-att-länka-till", <br> target="&#95;blank"(öppna i ny flik/sida)|
+
+
+
+### CSS
 ```css
-text-decoration: none
-```
-Ändra radavstånd:
-```css
-line-height: 2em;
+text-decoration: none; /*Ta bort underline på länkar*/
+line-height: 2em; /* Ändra radavstånd */
 ```
 
 Klasser och ID:
