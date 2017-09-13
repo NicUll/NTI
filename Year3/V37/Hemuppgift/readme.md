@@ -53,10 +53,10 @@ Transition används för att bestämma övergången mellan stilar.
 ```css
 transition: property duration timing-function [delay];
 ```
-property - Vilket attribut regeln ska gälla (exempelvis color, width, margin, etc.)
-duration - Tiden hela övergången ska ta
-timing-function - Ska det börja långsamt? Sluta fort? Gå lika fort hela tiden?
-[delay] - Om man vill lägga till en fördröjning på starten
+property - Vilket attribut regeln ska gälla (exempelvis color, width, margin, etc.)  
+duration - Tiden hela övergången ska ta  
+timing-function - Ska det börja långsamt? Sluta fort? Gå lika fort hela tiden?  
+[delay] - Om man vill lägga till en fördröjning på starten  
 
 Vill man ha olika övergångar för olika element går det bra att skriva upp  
 flera olika samtidigt, se bara till att komma-separera.
@@ -75,7 +75,7 @@ dess nuvarande vinkel.
 transform: scale(2,2) rotate(45deg);
 ```
 
-#### p5.js
+### p5.js
 p5.js är ett javascript-bibliotek som förenklar vissa saker, som att rita, genom att ha fördefinierade funktioner  
 vi kan använda. Officiell hemsida [http://p5js.org](http://p5js.org).
 
