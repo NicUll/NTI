@@ -52,6 +52,20 @@ Det är tillåtet för knappen att vid det tillfälle den byter plats/form, råk
 
 Inga övriga krav
 
+## Övriga upplysningar
+
+*Deadline tisdag 19/9, lektionens slut.*
+Om något är oklart kan ni fråga på fredag, alternativt skicka ett meddelande till mig på Schoolsoft.
+
+Uppgiften är obligatorisk och enbart pass/fail, följ de krav som står i uppgiftsspecen på GitHub, inget ytterligare krävs (mobilanpassning etc.).   
+Er fungerande kod ska vara skickad till mig *senast* när lektionen är slut på tisdag.  
+Om ni av någon anledning inte kan slutföra uppgiften eller problem uppstår, hör av er till mig i god tid så löser vi det. 
+
+Det kommer inte bli någon gruppredovisning denna gång, men var beredda på att på fredagen (22/9) lite översiktligt kunna
+stega igenom er kod enskilt med mig. Med andra ord, förstå er kod!
+
+Uppgiften är individuell, men jag uppmuntrar att ni stöttar varandra.
+
 
 Lycka Till
 
