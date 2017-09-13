@@ -116,4 +116,13 @@ function draw(){
 }
 ```
 
-All info som behövs hittar ni bland [koden vi använt på lektionen](../work), 
+All info som behövs hittar ni bland [koden vi använt på lektionen](../work), [extra exempel på hur ni refererar till HTML-element i p5 script](../extra), [p5js referenser](https://p5js.org/reference/), [p5js kodexempel](https://p5js.org/examples/).
+
+Bra metoder/funktioner att kolla in är:
+  * background()
+  * stroke()
+  * line(), square(), ellipse(), [etc](https://p5js.org/reference/#group-Shape)
+  * frameRate()
+  * [Events](https://p5js.org/reference/#group-Events) (Viktig att förstå!)
+
+###Lycka till!
