@@ -1,0 +1,55 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: cornflowerblue;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#content-container{
+    margin:auto;
+    height:800px;
+    width: 1000px;
+
+}
+
+.content{
+    float: left;
+    margin: 20px;
+    height: 200px;
+    background-color: beige;
+    border-radius: 30px;
+    padding: 30px;
+    overflow: auto;
+}
+
+#left-section{
+   width: 200px;
+}
+
+#middle{
+   
+}
+
+img {
+    display: inline;
+    float: left;
+    
+}
+
+
+h3{
+    text-align: center;
+}

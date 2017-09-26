@@ -1,0 +1,71 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Allura;
+    font-size: 3em;
+    background: linear-gradient(white 30%, rgba(255,255,255,0));
+}
+
+#main-content {
+    margin: auto;
+    width: 100%;
+}
+
+.content {
+    margin:auto;
+    clear:both;
+    overflow: auto;
+    padding: 10px;
+}
+
+.photo-container{
+    height: 100%;
+
+}
+
+
+.picture {
+    text-align: center;
+    margin: auto;
+    padding:30px;
+}
+
+.picture img{
+    clear:both;
+    float: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.picture h5{
+    font-family: sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    font-size: 12px;
+    font-family: monospace;
+    bottom: 0px;
+    background-color: aliceblue;
+    
+}

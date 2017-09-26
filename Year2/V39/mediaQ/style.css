@@ -1,0 +1,170 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+     cursor: pointer;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: gainsboro;
+   
+}
+
+p{
+    margin: 10px auto;
+}
+
+#body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin: 10px auto;
+}
+
+h1{
+    font-size: 3em;
+    color:red;
+    text-align: center;
+    font-family: 'Allura';
+    
+}
+
+#content-container{
+    width: 95%;
+    height: 900px;
+    box-shadow: 
+        1px 0 2px 1px rgb(50,50,50),
+        -1px 0 2px 1px rgb(50,50,50),
+        2px 0 2px 2px rgb(120,120,120),
+        -2px 0 2px 2px rgb(120,120,120);
+        
+    background-color: white;
+}
+
+
+a, a:hover,a:active{
+    text-decoration: none;
+    color:black;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    left: -105px;
+    top: 0;
+    padding-top: 5em;
+    height: 100%;
+    width: 100px;
+    background-color: red;
+    box-shadow: 0 0 2px 2px rgb(20,20,20);
+    
+    text-decoration: none;
+    font-size: 1.3em;
+    
+
+}
+
+
+
+nav:hover{
+    transform: translate(100px, 0);
+    transition: all 0.4s ease-out;
+}
+
+.menu-item{
+    box-shadow: -2px 0 2px 2px rgb(20,20,20);
+    padding: 10px
+}
+
+.menu-item:hover{
+    box-shadow: 
+        -2px 0 2px 2px rgb(20,20,20),
+        0px 0 2px 2px rgb(200,200,200);
+}
+
+#extend{
+    z-index: -1;
+    position: relative;
+    left: 100px;
+    background-color: dimgray;
+    height: 50px;
+    width: 20px;
+    text-align: center;
+    box-shadow: 
+        2px 0 2px 2px rgb(20,20,20),
+        0px 0 2px 2px rgb(200,200,200);
+    
+    
+}
+
+article{
+    padding:25px;
+    font-size: 2.5em;
+    font-family: sans-serif;
+}
+
+@media only screen and (min-width: 30em){
+    
+    html{
+        cursor: default;
+    }
+    
+    header{
+        margin: 50px auto;
+    }
+    
+    h1{
+        font-size: 4.5em;
+        color: green;
+        
+    }
+    
+
+    
+    #content-container{
+        width: 70%;
+        max-height: 600px;
+        margin-top: 50px;
+        
+    }
+    
+    nav{
+    position: fixed;
+    display: flex;
+    flex-flow: column;
+    left: -100px;
+    top: 0;
+    padding-top: 5em;
+    height: 100%;
+    width: 100px;
+    background-color: red;
+    box-shadow: 0 0 2px 2px rgb(20,20,20);
+    
+    text-decoration: none;
+    font-size: 1.3em;
+    z-index: 2;
+    
+
+}
+    
+    nav:hover{
+        transform: translate(100px, 0);
+        transition: all 0.4s ease-out;
+    }
+    
+    article{
+        font-size: 1.7em;
+    }
+    
+}
