@@ -41,12 +41,12 @@ användaren att klicka på.
 ##### Obligatorisk del 
 -Text på: "Klicka mig"  
 -Dels flytta på sig  
--Dels "stanna kvar" men ändra storlek/form  
+-Dels "stanna kvar" men även ändra storlek/form  
 
 Knappen ska alltså kunna flytta sig, och den måste(!!) då hålla sig inom webbläsaren.  
 Den får varken vara helt, eller delvis utanför.
 
-Knappen ska även ibland ändra storlek/form (varannan gång går också bra om det känns svårt att slumpa), den ska då ändra storlek form på ett sådant sätt att den igen hamnar på en oklickbar plats. 
+Knappen ska även ibland ändra storlek/form (varannan gång går också bra om det känns svårt att slumpa), den ska då ändra storlek/form på ett sådant sätt att den igen hamnar på en oklickbar plats. 
 
 Det är tillåtet för knappen att vid det tillfälle den byter plats/form, råka byta plats/form så att den en kort stund hamnar under musen ändå, så länge den direkt sen byter plats/form.
 
