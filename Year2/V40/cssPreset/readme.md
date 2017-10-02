@@ -16,9 +16,14 @@ Där då till exempel .left är standarden för att placera ett objekt till vän
 
 ```CSS
 .left {
+  display: float;
   float: left;
-  background-color: #330F77;
   }
+  
+ .article {
+   background-color: #330F77;
+   border-color: #220066;
+ }
 ```
 
 Fundera över vilka default-stilar som kan behövas till vår matmeny.
