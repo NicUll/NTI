@@ -10,3 +10,10 @@ Där då till exempel .left är standarden för att placera ett objekt till vän
   }
 
 ```
+
+
+
+### Länkar
+
+https://fonts.google.com/
+http://paletton.com/#uid=10H0u0kllllaFw0g0qFqFg0w0aF
