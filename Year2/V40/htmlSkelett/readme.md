@@ -8,7 +8,7 @@ Börja med enbart HTML, alla taggar ska komma i logisk ordning, ingen CSS skall 
 
 Det innehåll som ska finnas med är:  
 * Header med titel
-* Navigerings-meny som är under titeln
+* Navigerings-meny som är under eller över titeln, valfritt, men i headern.
 * [En bild från restaurangen](http://nicullman.se/webbutv/images.html)
 * En liten text i bilden, "Mat Som Väcker Drömmar"
 * En kort text om restaurangen
