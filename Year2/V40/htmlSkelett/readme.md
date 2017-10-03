@@ -43,6 +43,15 @@ Ostschnitzel med kryddsmör & örtslungad potatis. 120:-
 Högrev
 Lättstekt högrev från Alpoxe med rosmarinsky, späda morötter och potatisgratäng 165:-
 
+#### Nyheter
+
+Vi säger hejdå till vår kock Peter som jobbat hos oss i 15 år och nu ger sig ut på nya äventyr.  
+Välkommen in i teamet säger vi istället till Fredrika!
+- 3 Oktober 2017
+
+Lördagens middagsartist blir ingen mindre än Plura, varmt välkomna!
+- 1 Oktober 2017
+
 ## Att bläddra på samma sida
 
 Använd <a name="my-link"></a> för att skapa en länk på samma sida i ett dokument.  
