@@ -18,6 +18,11 @@ Det innehåll som ska finnas med är:
 
 Visa mig.
 
+#### Texten om restaurangen  
+Välkommen till Gräddhyllans Restaurang, där klassiska smaker får nytt liv. Grundat 1978 av kocken
+Jan Grafham, med visionen att tillaga enkla rätter i världsklass. Gräddhyllan har sedan starten befunnit sig på vackra Skeppsholmen,
+med en magiskt utsikt över vattnet. Titta gärna på vår meny(länka till menyn) nedan och låt dig frestas. 
+
 ## Att bläddra på samma sida
 
 Använd <a name="my-link"></a> för att skapa en länk på samma sida i ett dokument.  
