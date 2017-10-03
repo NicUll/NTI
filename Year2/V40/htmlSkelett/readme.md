@@ -16,6 +16,13 @@ Det innehåll som ska finnas med är:
 * Nyheter
 * Kontaktinfo
 
+Utöver detta så ska det i ```<head>``` finnas med viewport-inställningar för mobil. 
+Alltså innanför ```<head> </head>``` ska du ha med:  
+```<meta name="viewport" content="width=device-width, initial-scale=1">```
+
+Validera din kod på http://html5.validator.nu  
+Välj "text field" som input istället för "address" och kör.
+
 Visa mig.
 
 #### Texten om restaurangen  
