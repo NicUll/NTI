@@ -23,6 +23,19 @@ Välkommen till Gräddhyllans Restaurang, där klassiska smaker får nytt liv. G
 Jan Grafham, med visionen att tillaga enkla rätter i världsklass. Gräddhyllan har sedan starten befunnit sig på vackra Skeppsholmen,
 med en magiskt utsikt över vattnet. Titta gärna på vår meny(länka till menyn) nedan och låt dig frestas. 
 
+#### Meny
+Oxfilé  
+Oxfilecarpaccio med ruccolasallad, pinjenötter, hyvlad parmesanost sam balsamicocreme. 135:-
+
+Raggmunk  
+Stekfläsk med raggmunk, koktpotatis & löksås. 89:-
+
+Schnitzel
+Ostschnitzel med kryddsmör & örtslungad potatis. 120:-
+
+Högrev
+Lättstekt högrev från Alpoxe med rosmarinsky, späda morötter och potatisgratäng
+
 ## Att bläddra på samma sida
 
 Använd <a name="my-link"></a> för att skapa en länk på samma sida i ett dokument.  
