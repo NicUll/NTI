@@ -34,7 +34,7 @@ Schnitzel
 Ostschnitzel med kryddsmör & örtslungad potatis. 120:-
 
 Högrev
-Lättstekt högrev från Alpoxe med rosmarinsky, späda morötter och potatisgratäng
+Lättstekt högrev från Alpoxe med rosmarinsky, späda morötter och potatisgratäng 165:-
 
 ## Att bläddra på samma sida
 
