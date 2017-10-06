@@ -1,5 +1,7 @@
 
 
 function main() {
-    console.log("bla");
+    var text = "abcd";
+    text = "efgh";
+    console.log(text);
 }
