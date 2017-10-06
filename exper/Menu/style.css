@@ -1,0 +1,74 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    min-height: 50%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/restaurant.jpg);
+}
+
+h1{
+    font-family: 'Lobster';
+    font-size: 3em;
+    color: #FFD1AA;
+    text-shadow: 0px 0px 8px #804515;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    
+}
+
+.menu a{
+    height: 30px;
+    
+    
+    
+}
+
+#main-content-data {
+    width:500px;
+    padding:20px;
+}
+
+.photo-box{
+    text-align: center;
+}
+
+
+.picture-text{
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.color-primary-0 { color: #AA6C39 }	/* Main Primary color */
+.color-primary-1 { color: #FFD1AA }
+.color-primary-2 { color: #D49A6A }
+.color-primary-3 { color: #804515 }
+.color-primary-4 { color: #552700 }
+
