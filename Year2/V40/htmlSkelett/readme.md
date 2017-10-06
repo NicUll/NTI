@@ -52,6 +52,12 @@ Välkommen in i teamet säger vi istället till Fredrika!
 Lördagens middagsartist blir ingen mindre än Plura, varmt välkomna!
 - 1 Oktober 2017
 
+#### Kontakt
+
+Adress: Restaurangatan 12, 123 45 STOCKHOLM  
+Telefon: 123-45 45 00  
+Mail: kekamat.nu@restaurangGradd.se
+
 ## Att bläddra på samma sida
 
 Använd <a name="my-link"></a> för att skapa en länk på samma sida i ett dokument.  
