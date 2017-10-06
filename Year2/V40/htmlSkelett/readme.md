@@ -72,6 +72,6 @@ För att komma till den länkade plats, gör en länk med href="#my-link", allts
 Massa text om helt andra saker  
 ...  
 
-<a name"bunnies">Du bläddrar automatiskt hit i webbläsaren om du klickar på #bunnies-länken.</a>
+<span id="bunnies">Du bläddrar automatiskt hit i webbläsaren om du klickar på #bunnies-länken.</span>
 
 ```
