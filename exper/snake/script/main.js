@@ -21,7 +21,7 @@ function setup() {
     background(0);
     centerCanvas();
     
-    game = new Game(20,0,true);
+    game = new Game(1,0,true);
     game.snakeEat();
     game.snakeEat();
     game.snakeEat();

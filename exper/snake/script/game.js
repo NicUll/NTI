@@ -48,7 +48,7 @@ function Game(level, score, bordersOn) {
                 this.checkCollision(); //See what the movement resulted in
 
             } else {
-                this.ticker += level; //Increase the counter 
+                this.ticker += (level+19); //Increase the counter 
             }
         }
 
@@ -60,6 +60,7 @@ function Game(level, score, bordersOn) {
     this.snakeEat = function () {
         this.snake.addBlock();
         this.food.place();
+        this.gameStats.incScore();
     }
 
     /*Updating the entire game*/
@@ -67,6 +68,7 @@ function Game(level, score, bordersOn) {
         this.updateSnake();
         this.food.show();
         this.topBarShow();
+        this.gameStats.printStats();
     }
     
     this.topBarShow = function(){
