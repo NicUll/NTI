@@ -1,16 +1,18 @@
 const FOOD_COLOR = (0,255,0);
 
-function Food(){
+function Food(playWidth, heightSecret){
     
     this.xPos = null;
     this.yPos = null;
+    this.playWidth = playWidth;
+    this.heigtSecret = heightSecret;
     
     this.size = SN_HEIGHT;
     
     //Place food in random position
     this.place = function(){
         this.xPos = Math.random() * width - SN_WIDTH;
-        this.yPos = Math.random() * height - SN_HEIGHT; 
+        this.yPos = Math.random() * height - SN_HEIGHT + this.heigtSecret ; 
     }
     
     this.show = function(){

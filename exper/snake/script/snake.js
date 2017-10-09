@@ -46,7 +46,7 @@ function Snake(){
     }
     
     this.collision = function(){
-        this.tail.collision(this.head.xPos,this.head.yPos);
+        return this.tail.collision(this.head.xPos,this.head.yPos);
     }
     
 }
@@ -100,15 +100,8 @@ function Block(xPos, yPos, parent){
     }
     
     this.collision = function(xHead, yHead){
-        
-        if(this.xPos <= xHead + (SN_WIDTH + SEPARATION)){
-            console.log("Head to the left of");
-        }
-        
-        if(this.xPos <= xHead + (SN_WIDTH + SEPARATION) &&
-        this.xPos + (SN_WIDTH + SEPARATION) >= xHead &&
-        this.yPos <= yHead + (SN_HEIGHT + SEPARATION) &&
-        this.ypos + (SN_HEIGHT + SEPARATION) >= yHead){
+        if(
+            this.xPos < xHead + (SN_WIDTH + SEPARATION) && this.xPos + (SN_WIDTH + SEPARATION) > xHead && this.yPos < yHead + (SN_HEIGHT + SEPARATION) && this.yPos + (SN_HEIGHT + SEPARATION) > yHead){
             return true;
         }else{
             

@@ -1,20 +1,31 @@
 const TICKER_MAX = 50;
+const PADDIN_TOP = 100;
 
 function Game(level, score, bordersOn) {
 
-
+    /*
     this.level = 1; //Determines difficulty
     this.score = 0; //Starting score
+    */
 
     this.bordersOn = bordersOn; //Wether the player should loose when touching the edge of the playfield
     this.ticker = 0; //Controll of snakespeed
 
     this.play = false;
     this.lost = false;
+    
+    this.top = 80;
+    this.playWidth = width;
+    this.playHeight = height;
+    
+    
 
 
     this.snake = new Snake(); //The snake-object
-    this.food = new Food(); //A food object for generating food
+    this.food = new Food(this.playWidth, this.top); //A food object for generating food
+    
+    this.gameStats = new GameStats(score, level, width, this.top);
+    
 
 
 
@@ -24,6 +35,7 @@ function Game(level, score, bordersOn) {
     this.setupGame = function () {
         this.snake.show();
         this.food.place();
+        
     }
 
 
@@ -54,15 +66,21 @@ function Game(level, score, bordersOn) {
     this.update = function () {
         this.updateSnake();
         this.food.show();
+        this.topBarShow();
+    }
+    
+    this.topBarShow = function(){
+        stroke(255);
+        line(0, this.top, this.playWidth, this.top);
     }
 
     //Check if the cnake has collided anywhere (food, wall, etc.)
     this.checkCollision = function () {
         //Written here for clarity, check different collisions
         var collideLeft = this.snake.head.xPos < 0;
-        var collideRight = this.snake.head.xPos + SN_WIDTH > width;
-        var collideUp = this.snake.head.yPos < 0;
-        var collideDown = this.snake.head.yPos + SN_HEIGHT > height;
+        var collideRight = this.snake.head.xPos + SN_WIDTH > this.playWidth;
+        var collideUp = this.snake.head.yPos < this.top;
+        var collideDown = this.snake.head.yPos + SN_HEIGHT > this.playHeight;
 
         //Wall collision
         if (collideLeft || collideRight || collideUp || collideDown) {
@@ -72,13 +90,13 @@ function Game(level, score, bordersOn) {
                 var xMove = 0;
                 var yMove = 0;
                 if (collideLeft) {
-                    xMove = width - SN_WIDTH;
+                    xMove = this.playWidth - SN_WIDTH;
                     yMove = this.snake.head.yPos;
                 } else if (collideRight) {
                     yMove = this.snake.head.yPos;
                 } else if (collideUp) {
                     xMove = this.snake.head.xPos;
-                    yMove = height - SN_HEIGHT;
+                    yMove = play - SN_;
                 } else {
                     xMove = this.snake.head.xPos;
                 }
