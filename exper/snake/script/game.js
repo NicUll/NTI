@@ -8,6 +8,10 @@ function Game(level, score, bordersOn) {
 
 
     this.snake = new Snake();
+    this.food = new Food();
+    
+    this.food.place();
+    
 
 
     this.updateSnake = function () {
@@ -29,10 +33,12 @@ function Game(level, score, bordersOn) {
     
     this.snakeEat = function(){
         this.snake.addBlock();
+        this.food.place();
     }
 
     this.update = function () {
         this.updateSnake();
+        this.food.show();
     }
     
     this.checkCollision = function(){
@@ -69,6 +75,13 @@ function Game(level, score, bordersOn) {
             }
 
         }
+        
+        else if(this.food.distance(this.snake.head.xPos, this.snake.head.yPos) < 10){
+                    this.snakeEat();
+                
+                }
+        console.log(this.food.distance(this.snake.head.xPos, this.snake.head.yPos));
+        
     }
     
     this.gameLost = function(){
@@ -78,7 +91,6 @@ function Game(level, score, bordersOn) {
     this.turnSnake = function(keyCode){
         var keyBinds = {37:LEFT,39:RIGHT,38:UP,40:DOWN}
         if (keyCode in keyBinds){
-            if(snake.key)
             this.snake.changeDirection(keyBinds[keyCode]);
         }
     }

@@ -1,12 +1,15 @@
-var computer = {
-    model: "Acer",
-    color: "Black",
-    screen: "15 inch"
-}
 
 
-
-function main() {
-    console.log(computer["model"]);
-    console.log(computer.model);
+P5 {
+    var color = function(red, green, blue){
+        //Gör massa coola saker
+    }
+    
+    
+    Egen Kod {
+        Ball(){}
+        
+        var color = "red";
+        
+    }  
 }

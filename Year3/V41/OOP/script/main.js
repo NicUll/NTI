@@ -1,6 +1,4 @@
-var ball1;
-var ball2;
-var ball3;
+var ballContainer1;
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
@@ -14,9 +12,20 @@ function windowResized() {
 
 
 function createBalls(){
-    ball1 = new Ball(200,200,100,"red");
-    ball2 = new Ball(300,150,100,"red");
-    ball3 = new Ball(140,400,100,"red");
+    var ball1 = new Ball(200,200,100,"red");
+    var ball2 = new Ball(300,150,100,"blue");
+    var ball3 = new Ball(140,400,100,"yellow");
+    var ball4 = new Ball(40, 40, 150,"pink");
+    
+    ballContainer1 = new BallContainer();
+    
+    ballContainer1.addBall(ball1);
+    ballContainer1.addBall(ball2);
+    ballContainer1.addBall(ball3);
+    ballContainer1.addBall(ball4);
+    
+    ballContainer1.addTwoHBalls();
+    
 }
 
 function setup() {
@@ -29,20 +38,18 @@ function setup() {
     fill(255);
     
     createBalls();
-    ball2.newPosition();
-    ball1.newPosition();
+    
     
 
 }
 
 function keyPressed(){
-
+    ballContainer1.changeBalls();
 }
 
 
 function draw() {
-    ball1.drawBall();
-    ball2.drawBall();
-    ball3.drawBall();
+    background(0);
+    ballContainer1.drawBalls();
 
 }
