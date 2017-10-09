@@ -1,19 +1,21 @@
-const FOOD_COLOR = (0, 220, 0);
+const FOOD_COLOR = (0,255,0);
 
 function Food(){
+    
     this.xPos = null;
     this.yPos = null;
     
     this.size = SN_HEIGHT;
     
+    //Place food in random position
     this.place = function(){
         this.xPos = Math.random() * width - SN_WIDTH;
         this.yPos = Math.random() * height - SN_HEIGHT; 
     }
     
     this.show = function(){
-        stroke(0,255,0);
-        fill(0,255,0);
+        stroke(0,220,0);
+        fill(0,220,0);
         rect(this.xPos, this.yPos, this.size, this.size);
         
 
