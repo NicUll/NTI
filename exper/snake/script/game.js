@@ -2,12 +2,14 @@ const TICKER_MAX = 50;
 
 function Game(level, score, bordersOn) {
     this.level = 1;
-    this.score = 0;
+    this.score = score;
     this.bordersOn = bordersOn;
     this.ticker = 0;
 
 
     this.snake = new Snake();
+    this.food = new Food(width, height);
+    this.food.newFood();
 
 
     this.updateSnake = function () {
@@ -33,6 +35,7 @@ function Game(level, score, bordersOn) {
 
     this.update = function () {
         this.updateSnake();
+        this.food.show();
     }
     
     this.checkCollision = function(){
@@ -43,7 +46,7 @@ function Game(level, score, bordersOn) {
         var collideUp = this.snake.head.yPos < 0;
         var collideDown = this.snake.head.yPos + SN_HEIGHT > height; 
         
-        if(collideLeft || collideRight || collideUp || collideRight){
+        if(collideLeft || collideRight || collideUp || collideDown){
             
             if(this.bordersOn){
                 this.gameLost();
@@ -78,7 +81,7 @@ function Game(level, score, bordersOn) {
     this.turnSnake = function(keyCode){
         var keyBinds = {37:LEFT,39:RIGHT,38:UP,40:DOWN}
         if (keyCode in keyBinds){
-            if(snake.key)
+            //if(snake.key)
             this.snake.changeDirection(keyBinds[keyCode]);
         }
     }
