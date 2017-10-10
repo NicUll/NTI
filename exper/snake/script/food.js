@@ -1,21 +1,32 @@
-const FOOD_COLOR = (0,220,0);
+const FOOD_COLOR = (0,255,0);
 
-function Food(gWidth, gHeight) {
-
-    this.gWidth = gWidth;
-    this.gHeight = gHeight;
-    this.xPos = 0;
-    this.yPos = 0;
-
-
-    this.newFood = function () {
-        this.xPos = Math.random() * this.gWidth;
-        this.yPos = Math.random() * this.gHeight;
+function Food(playWidth, topBar){
+    
+    this.xPos = null;
+    this.yPos = null;
+    this.playWidth = playWidth;
+    this.topBar = topBar;
+    
+    this.size = SN_HEIGHT;
+    
+    //Place food in random position
+    this.place = function(){
+        this.xPos = Math.random() * width - SN_WIDTH;
+        this.yPos = Math.random() * (height-this.topBar) - SN_HEIGHT + this.topBar ; 
     }
-
-    this.show = function () {
-        fill(0,220,0);
+    
+    this.show = function(){
         stroke(0,220,0);
-        rect(this.xPos,this.yPos,SN_WIDTH,SN_HEIGHT);
+        fill(0,220,0);
+        rect(this.xPos, this.yPos, this.size, this.size);
+        
 
     }
+    
+    this.distance = function(xVal, yVal){
+        var xDistSq = (this.xPos - xVal)**2;
+        var yDistSq = (this.yPos - yVal)**2;
+        
+        return (Math.sqrt(xDistSq + yDistSq));
+    }
+}
