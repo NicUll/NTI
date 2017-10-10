@@ -19,4 +19,3 @@ function Food(gWidth, gHeight) {
         rect(this.xPos,this.yPos,SN_WIDTH,SN_HEIGHT);
 
     }
-}

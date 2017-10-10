@@ -1,7 +1,4 @@
-const BG_COLOR = 0;
-const ST_COLOR = 255;
-const FI_COLOR = 255;
-var game;
+
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
@@ -20,26 +17,14 @@ function setup() {
 
     background(0);
     centerCanvas();
-    
-
-    
-    game = new Game(20,0,false);
-    game = new Game(1,0,true);
-    game.snakeEat();
-    game.snakeEat();
-
-    game.snakeEat();
-    game.snakeEat();
-    game.snakeEat();
 
 }
 
 function keyPressed(){
-    
-    game.turnSnake(keyCode);
+
 }
 
 
 function draw() {
-    game.update();
+
 }
