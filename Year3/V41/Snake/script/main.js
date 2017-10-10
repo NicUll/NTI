@@ -1,4 +1,5 @@
 
+var mySnake;
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
@@ -17,6 +18,11 @@ function setup() {
 
     background(0);
     centerCanvas();
+    
+    mySnake = new Snake(200,200);
+    fill(255);
+    stroke(255);
+    
 
 }
 
@@ -26,5 +32,7 @@ function keyPressed(){
 
 
 function draw() {
+    background(0);
+    mySnake.draw();
 
 }
