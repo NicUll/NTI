@@ -1,6 +1,6 @@
 const SN_WIDTH = 10;
 const SN_HEIGHT = 10;
-const SEPARATION = 5;
+const SEPARATION = 2;
 const LEFT = 0;
 const UP = 1;
 const RIGHT = 2;
@@ -30,8 +30,13 @@ function Snake(){
     
     //Create new block and set as tail
     this.addBlock = function(){
+
+        this.tail = new Block(this.tail.xPos, this.tail.yPos, this.tail);
+        
+
         var tempTail = new Block(this.tail.xPos, this.tail.yPos, this.tail);
         this.tail = tempTail; 
+
     }
     
     //Simple setter
