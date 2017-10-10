@@ -15,6 +15,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
+/*
 header{
     position: relative;
     min-height: 50%;
@@ -22,6 +23,11 @@ header{
     background-size: cover;
     background-image: url(img/restaurant.jpg);
     
+}*/
+
+#main-title{
+    font-size:1.3em;
+    text-align: center;
 }
 
 h1{
