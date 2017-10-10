@@ -21,7 +21,12 @@ function setup() {
     background(0);
     centerCanvas();
     
+<<<<<<< HEAD
     game = new Game(1,0,true);
+=======
+    
+    game = new Game(20,0,false);
+>>>>>>> parent of 331a7cd... Merge branch 'master' into Cleanup
     game.snakeEat();
     game.snakeEat();
     game.snakeEat();
