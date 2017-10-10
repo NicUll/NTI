@@ -3,24 +3,13 @@ const PADDIN_TOP = 100;
 
 function Game(level, score, bordersOn) {
 
-    this.level = 1;
-    this.score = score;
-    this.bordersOn = bordersOn;
-    this.ticker = 0;
-
-
     /*
     this.level = 1; //Determines difficulty
     this.score = 0; //Starting score
     */
 
-    this.snake = new Snake();
-    this.food = new Food(width, height);
-    this.food.newFood();
-
     this.bordersOn = bordersOn; //Wether the player should loose when touching the edge of the playfield
     this.ticker = 0; //Controll of snakespeed
-
 
     this.play = false;
     this.lost = false;
@@ -78,10 +67,8 @@ function Game(level, score, bordersOn) {
     this.update = function () {
         this.updateSnake();
         this.food.show();
-
         this.topBarShow();
         this.gameStats.printStats();
-
     }
     
     this.topBarShow = function(){
@@ -93,18 +80,6 @@ function Game(level, score, bordersOn) {
     this.checkCollision = function () {
         //Written here for clarity, check different collisions
         var collideLeft = this.snake.head.xPos < 0;
-
-        var collideRight = this.snake.head.xPos + SN_WIDTH > width;
-        var collideUp = this.snake.head.yPos < 0;
-        var collideDown = this.snake.head.yPos + SN_HEIGHT > height; 
-        
-        if(collideLeft || collideRight || collideUp || collideDown){
-            
-            if(this.bordersOn){
-                this.gameLost();
-            }
-            else{
-
         var collideRight = this.snake.head.xPos + SN_WIDTH > this.playWidth;
         var collideUp = this.snake.head.yPos < this.top;
         var collideDown = this.snake.head.yPos + SN_HEIGHT > this.playHeight;
@@ -114,7 +89,6 @@ function Game(level, score, bordersOn) {
             if (this.bordersOn) {
                 this.gameLost(); //If walls should result in game lost
             } else { //Otherwise wrap the snake around the play-area
-
                 var xMove = 0;
                 var yMove = 0;
                 if (collideLeft) {
@@ -147,13 +121,6 @@ function Game(level, score, bordersOn) {
         this.play = false;
     }
 
-    
-    this.turnSnake = function(keyCode){
-        var keyBinds = {37:LEFT,39:RIGHT,38:UP,40:DOWN}
-        if (keyCode in keyBinds){
-            //if(snake.key)
-
-
     this.turnSnake = function (keyCode) {
         //Bind keys with numbers
         var keyBinds = {
@@ -169,8 +136,8 @@ function Game(level, score, bordersOn) {
         }
         
         //If arrow key, turn snake
-        if (keyCode in keyBinds) 
-          this.snake.changeDirection(keyBinds[keyCode]);
+        if (keyCode in keyBinds) {
+            this.snake.changeDirection(keyBinds[keyCode]);
         }
     }
 
