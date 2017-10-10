@@ -3,47 +3,97 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Menupage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menupage</title>
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
     <script src="script.js"></script>
 </head>
 
 <body>
-    <a name="top"></a>
-    <header title="Foodplate Picture">
+    <section id="content">
+        <a id="link-top"></a>
 
+        <header>
+            <div id="main-title" class="header-content title-container">
+                <h1>Restaurang Gräddhyllan</h1>
+            </div>
 
-        <nav class="main-content-menu menu color-primary-1">
-            <a href="#menu1">Menu 1</a>
-            <a href="#menu2">Menu 2</a>
-            <a href="#menu3">Menu 3</a>
-        </nav>
+            <nav class="header-content main-content-menu menu color-primary-1">
+                <a href="#menu1">Om oss</a>
+                <a href="#menu2">Meny</a>
+                <a href="#menu3">Nyheter</a>
+                <a href="#menu4">Kontakt</a>
+            </nav>
 
-        <div class="photo-box center" id="plate">
-            <h1>Mat som väcker drömmar</h1></div>
+            
+            <aside id="food-plate-picture" class="header-content photo-box box center" title="Foodplate Picture">
+                <div id="plate-picture-text-container" class="text-box box center">
+                    <span id="plate-picture-text" class="picture-text">Mat som väcker drömmar</span>
+                </div>
+            </aside>
+        </header>
 
-    </header>
+        <section class="body-container container">
 
-    <section class="body-container container">
+            <section class="about-container container">
 
-        <section class="about-container container">
+                <h2 class="about-title">Om Oss</h2>
+                <p class="about-text">Välkommen till Gräddhyllans Restaurang, där klassiska smaker får nytt liv. Grundat 1978 av kocken Jan Grafham, med visionen att tillaga enkla rätter i världsklass. Gräddhyllan har sedan starten befunnit sig på vackra Skeppsholmen, med en magiskt utsikt över vattnet. Titta gärna på vår meny(länka till menyn) nedan och låt dig frestas.</p>
+
+            </section>
+
+            <section class="menu-container container">
+                <h2 class="menu-title">Meny</h2>
+                <div class="menu-item-box">
+
+                    <article class="menu-item">
+                        <h3 class="menu-item-title">Oxfilé</h3>
+                        <p class="menu-item-text">
+                            Oxfilecarpaccio med ruccolasallad, pinjenötter, hyvlad parmesanost sam balsamicocreme.
+                            <span class="price">135:-</span>
+                        </p>
+                    </article>
+
+                    <article class="menu-item">
+                        <h3 class="menu-item-title">Raggmunk</h3>
+                        <p class="menu-item-text">
+                            Stekfläsk med raggmunk, kokt potatis &amp; löksås.
+                            <span class="price">89:-</span>
+                        </p>
+                    </article>
+
+                    <article class="menu-item">
+                        <h3 class="menu-item-title">Schnitzel</h3>
+                        <p class="menu-item-text">
+                            Ostschnitzel med kryddsmör &amp; örtslungad potatis.
+                            <span class="price">120:-</span>
+                        </p>
+                    </article>
+
+                    <article class="menu-item">
+                        <h3 class="menu-item-title">Högrev</h3>
+                        <p class="menu-item-text">
+                            Lättstekt högrev från Alpoxe med rosmarinsky, späda morötter och potatisgratäng.
+                            <span class="price">165:-</span>
+                        </p>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="news-container container">
+            </section>
+
         </section>
 
-        <section class="menu-container container">
-        </section>
-        
-        <section class="news-container container">
-        </section>
+        <footer>
+            <section class="contact-container container">
+            </section>
+        </footer>
+
 
     </section>
-
-    <footer>
-        <section class="contact-container container">
-        </section>
-    </footer>
-
 </body>
 
 </html>
