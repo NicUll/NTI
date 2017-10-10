@@ -22,7 +22,6 @@ function Food(playWidth, topBar){
         
 
     }
-<<<<<<< HEAD
     
     this.distance = function(xVal, yVal){
         var xDistSq = (this.xPos - xVal)**2;
@@ -30,6 +29,4 @@ function Food(playWidth, topBar){
         
         return (Math.sqrt(xDistSq + yDistSq));
     }
-=======
->>>>>>> parent of 331a7cd... Merge branch 'master' into Cleanup
 }
