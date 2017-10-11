@@ -1,5 +1,7 @@
 const TICKER_MAX = 50;
 const PADDIN_TOP = 100;
+const MOBILE = 0;
+const DESKTOP = 1;
 
 function Game(level, score, bordersOn) {
 
@@ -120,20 +122,30 @@ function Game(level, score, bordersOn) {
         this.lost = true;
         this.play = false;
     }
-
-    this.turnSnake = function (keyCode) {
-        //Bind keys with numbers
-        var keyBinds = {
-            37: LEFT,
-            39: RIGHT,
-            38: UP,
-            40: DOWN
-        }
-        
+    
+    this.handleInput = function(inputData, deviceType){
         //Start the game if key pressed, snake still, and we havent lost.
         if (!(this.lost || this.play)) {
             this.play = true;
         }
+        
+        if(deviceType == MOBILE){
+            this.snake.changeDirection(inputData);
+        }else{
+            this.turnSnake(inputData);
+        }
+    }
+
+    this.turnSnake = function (keyCode) {
+        //Bind keys with numbers
+        var keyBinds = {
+            37: SNAKELEFT,
+            39: SNAKERIGHT,
+            38: SNAKEUP,
+            40: SNAKEDOWN
+        }
+        
+        
         
         //If arrow key, turn snake
         if (keyCode in keyBinds) {

@@ -22,9 +22,10 @@ function GameStats(score, level, boxWidth, boxHeight){
     }
     
     this.printStats = function(){
-        textSize(20);      
-        text("Level: " + this.level, (boxWidth/2)-200, (boxHeight/2)-15, 100, 30);
-        text("Score: " + this.score, (boxWidth/2)+100, (boxHeight/2)-15, 100, 30);
+        textSize(fontSize);    
+        textAlign(RIGHT);
+        text("Level: " + this.level, (boxWidth*(1/4)), (boxHeight/2)-15, width/2, 30);
+        text("Score: " + this.score, (boxWidth*(3/4)), (boxHeight/2)-15, width/2, 30);
     }
     
     

@@ -1,10 +1,10 @@
 const SN_WIDTH = 10;
 const SN_HEIGHT = 10;
 const SEPARATION = 5;
-const LEFT = 0;
-const UP = 1;
-const RIGHT = 2;
-const DOWN = 3;
+const SNAKELEFT = 0;
+const SNAKEUP = 1;
+const SNAKERIGHT = 2;
+const SNAKEDOWN = 3;
 const DIRECTION = [[-1,0],[0,-1],[1,0],[0,1]];
 const SNAKE_COLOR = 255;
 
@@ -12,7 +12,7 @@ const SNAKE_COLOR = 255;
 function Snake(){
     
     //Create start and end blocks
-    this.head = new Head(width/2,height/2,RIGHT);
+    this.head = new Head(width/2,height/2,SNAKERIGHT);
     this.tail = this.head;
     
     //Redirect move to tail
