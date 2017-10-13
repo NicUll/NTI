@@ -23,20 +23,27 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 
 header{
     width: 100%;
+    height: 70%;
     min-height: 70%;
+    overflow: auto;
+
+    
 }
 
-
-
-#content{
-    height: 100%;
+a, a:active, a:visited{
+    text-decoration: none;
+    color: #552700;
 }
 
 /* Section classes */
 
 .header-content{
-    padding: 2px;
+
     margin-bottom: 10px;
+}
+
+.body-container{
+   margin: 0 5%;
 }
 
 
@@ -44,20 +51,27 @@ header{
 
 .picture-text{
     color: black;
-    drop-shadow:
+    text-shadow:  3px 3px 8px #FFD1AA, -3px -3px 8px #FFD1AA;
+    font-size: 1.2em;
 }
 
-.title-container {
 
+.main-content-menu{
+    position: absolute;
 }
 
 .menu{
     width: 100%;
+    padding: 20px 0;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-
+    text-decoration: inherit;
+    align-items: center;
 }
+
+
+
 
 .center {
     position: absolute;
@@ -89,34 +103,84 @@ header{
 
 /* Specific elements*/
 #main-title{
-    font-size:1.3em;
+    font-size: 1.3em;
     text-align: center;
     font-family: 'Lobster', sans-serif;
-    text-shadow: 0 0 8px #804515;
-    color:
+
+    /*text-shadow: 0 0 8px #804515;*/
+    
+    
+    
 }
 
 #food-plate-picture{
-    position: absolute;
+    position: relative;
     width: 100%;
-    min-height: 30%;
+    height: 70%;
+    min-height: 70%;
     background: url(img/restaurant.jpg) center;
     background-size: cover;
+
 
 }
 
 #plate-picture-text-container{
     width: 100%;
-    min-height: 30%;
-    text-shadow: 0 0 8px #804515;
+    /*min-height: 30%;*/
+    
+    text-align: center;
+}
+
+
+
+#content{
+    height: 100%;
 }
 
 
 
 
+/*
 
+Deprecated
 
+.title-container-vertical {
+    margin: 0 10%;
+    padding: 10% 0;
+    
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;
+    box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75),
+            -4px -4px 10px 0px rgba(50, 50, 50, 0.75);
 
+}
+
+.title-container-horizontal {
+    margin: 10% 0;
+    padding: 5% 0;
+    
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;
+    box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75),
+            -4px -4px 10px 0px rgba(50, 50, 50, 0.75);
+}
+
+.title-container-neutral {
+    margin: 0 0;
+    padding: 5% 0;
+    
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;
+    box-shadow: 4px 4px 10px 0px rgba(50, 50, 50, 0.75),
+            -4px -4px 10px 0px rgba(50, 50, 50, 0.75);
+}
+*/
 
 
 

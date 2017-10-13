@@ -20,6 +20,10 @@ function setup() {
     centerCanvas();
     
     mySnake = new Snake(200,200);
+    mySnake.eat();
+    mySnake.eat();
+    mySnake.eat();
+    
     fill(255);
     stroke(255);
     
@@ -34,5 +38,6 @@ function keyPressed(){
 function draw() {
     background(0);
     mySnake.show();
+    mySnake.move();
 
 }

@@ -1,32 +1,77 @@
-
 const SIZE = 10;
+const SEPARATION = 4;
+
+const DIST = SIZE + SEPARATION;
 
 
-function Snake(x, y){
+const LEFT = 0;
+const UP = 1;
+const RIGHT = 2;
+const DOWN = 3;
+
+/* Förklara på GitHub */
+//Rör den sig i x-led?
+
+
+function Snake(x, y) {
     this.x = x; //Ormens x-position
     this.y = y; //Ormens y-position
-    
+    this.direction = RIGHT;
+
     //Börja med att skapa huvud
-    this.head = new Block(this.x, this.y); 
-    
+    this.head = new Block(this.x, this.y);
+
     this.body = [this.head]; //Lista med kropps-block
-    
-    this.show = function(){
-        for(var i=0; i < this.body.length; i++){
+
+    this.show = function () {
+        for (var i = 0; i < this.body.length; i++) {
             this.body[i].show();
         }
     }
     
-    
+    this.eat = function(){
+        var lastBlock = this.body[this.body.length - 1];
+        
+        var tempBlock = new Block(lastBlock.x, lastBlock.y);
+        
+        this.move();
+        
+        this.body.push(tempBlock);
+    }
+
+    this.move = function () {
+        
+        for (var i = this.body.length - 1; i > 0; i--) {
+            this.body[i].x = this.body[i - 1].x;
+            this.body[i].y = this.body[i - 1].y;
+        }
+
+        //Vilken riktning har huvudet?
+        if (this.direction == LEFT) {
+            this.head.x -= DIST;
+        } else if (this.direction == RIGHT) {
+            this.head.x += DIST;
+        } else if (this.direction == UP) {
+            this.head.y -= DIST;
+        } else {
+            this.head.y += DIST;
+        }
+    }
+
+
+
+
 }
 
 
-function Block(x, y){
+function Block(x, y) {
     this.x = x;
     this.y = y;
-    
-    this.show = function(){
+
+    this.show = function () {
         rect(this.x, this.y, SIZE, SIZE);
     }
-    
+
+
+
 }
