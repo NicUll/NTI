@@ -33,6 +33,6 @@ function keyPressed(){
 
 function draw() {
     background(0);
-    mySnake.draw();
+    mySnake.show();
 
 }
