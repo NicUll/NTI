@@ -6,9 +6,9 @@ Uppgiften är att skapa en hemsida som visar upp två motsatser i form av varsin
 tillsammans med tillhörande texter. Hemsidan skall utvecklas steg för steg:  
 
 1. Val av innehåll
-2. Layoutbeskrivning/skiss
+2. Layoutbeskrivning/skiss (Utefter det innehåll ni har)
 3. HTML-skelett, med klasser
-4. CSS - mobil först
+4. CSS - mobil först 
 5. Media queries för andra skärmar
 
 
@@ -43,7 +43,9 @@ Grundläggande är:
   
 
 ### Sidans layout
-....
+* Layouten ska övergripande följa de skisser jag gjort.
+* Färg- och typsnittsval är fritt och bedöms ej, däremot måste...
+* ...Färger och typsnitt vara valda så att texter går att läsa och layouten är tydlig
 
 
 ### Namngivning av klasser och IDn
