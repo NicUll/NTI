@@ -71,10 +71,13 @@ Som du ser låser inte namnet innehållet alls.
 
 
 ### Referenser/Länkar
-https://twiggy.smutje.se/index.php/God_praxis_f%C3%B6r_webbutveckling
+[God praxis för webbutveckling](https://twiggy.smutje.se/index.php/God_praxis_f%C3%B6r_webbutveckling) - Lite om kommentarer, namngivning, etc.
 
-https://twiggy.smutje.se/index.php/Anv%C3%A4nda_HTML5_semantiska_element
+[Använda HTML5 semantiska element](https://twiggy.smutje.se/index.php/Anv%C3%A4nda_HTML5_semantiska_element) - Vägledning för sidskelett och HTML5-element
 
-https://twiggy.smutje.se/index.php/Styla_horisontell_placering_med_CSS_flexbox
+Placering av element: 
+* [Float](https://twiggy.smutje.se/index.php/Styla_horisontell_placering_med_CSS_float)
+* [Flexbox](https://twiggy.smutje.se/index.php/Styla_horisontell_placering_med_CSS_flexbox) 
+Flexbox är förmodligen lättast att använda sig av.
 
-https://twiggy.smutje.se/index.php/Skapa_en_webbsida_med_responsiv_layout
+[Responsiv layout](https://twiggy.smutje.se/index.php/Skapa_en_webbsida_med_responsiv_layout) - Vägledning och tips för media queries och vad man ska tänka på vid design för olika enheter.
