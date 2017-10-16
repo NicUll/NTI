@@ -47,6 +47,19 @@ Grundläggande är:
 * Färg- och typsnittsval är fritt och bedöms ej, däremot måste...
 * ...Färger och typsnitt vara valda så att texter går att läsa och layouten är tydlig
 
+## För högre betyg än C
+* Ska även en version anpassad för tablets användas.
+
+## Inlämning
+Uppgiften ska lämnas in senast fredag den 27:e, kl 23:59.
+Lämnas uppgiften in senare kommer en komplettering krävas
+och uppgiften kan ej få högre betyg än E.
+
+## Betygsättning
+För godkänt skall punkterna i uppgiftkraven ovan följas, för högre betyg än C, se ovan.
+Utöver detta används de kriterier som finns i uppgiften på Schoolsoft, viktigt att kolla på dem! Fråga mig
+om du vill ha dessa förtydligade.
+
 
 ### Namngivning av klasser och IDn
 När du skall namnge en klass eller ett ID är det dels viktit att ha ett kort och beskrivande namn, men också
