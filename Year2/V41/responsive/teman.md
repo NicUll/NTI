@@ -1,5 +1,5 @@
 
-[PC - Variant 1](https://wireframe.cc/) 
+[PC - Variant 1](https://wireframe.cc/z9QBIG) 
 
 [PC - Variant 2](https://wireframe.cc/ksc1wN)
 
