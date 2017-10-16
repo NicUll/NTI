@@ -1,8 +1,8 @@
 
-https://wireframe.cc/ (PC 1)
+[PC - Variant 1](https://wireframe.cc/) 
 
-https://wireframe.cc/ksc1wN (PC 2)
+[PC - Variant 2](https://wireframe.cc/ksc1wN)
 
-https://wireframe.cc/Ujjh2o (Tablet)
+[Mobil](https://wireframe.cc/Ujjh2o)
 
-https://wireframe.cc/i4MuOy (Mobil)
+[Tablet](https://wireframe.cc/i4MuOy)
