@@ -19,6 +19,15 @@ Grundläggande är:
 * Två motsatser med bilder och texter enligt beskrivning
 * Två Layouter, dator och mobil, enligt wireframe-skisser
 
+[PC - Variant 1](https://wireframe.cc/z9QBIG) 
+
+[PC - Variant 2](https://wireframe.cc/ksc1wN)
+
+[Mobil](https://wireframe.cc/Ujjh2o)
+
+[Tablet](https://wireframe.cc/i4MuOy)
+
+
 ### Krav på HTML
 * Korrekt HTML, de fel som finns är mindre och påverkar inte hemsidan eller dess struktur märkbart
 * Val av HTML-element är till största del motiverad eller självklar.
