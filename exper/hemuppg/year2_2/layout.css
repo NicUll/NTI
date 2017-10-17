@@ -1,4 +1,18 @@
-
-.middle-div {
+@media (min-width: 680px) {
+    
+    .op-box {
+        
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .op-post{
+        width:35%;
+    }
+    
+    
     
 }
