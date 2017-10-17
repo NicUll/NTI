@@ -71,7 +71,7 @@ om du vill ha dessa förtydligade.
 
 
 ### Namngivning av klasser och IDn
-När du skall namnge en klass eller ett ID är det dels viktit att ha ett kort och beskrivande namn, men också
+När du skall namnge en klass eller ett ID är det dels viktigt att ha ett kort och beskrivande namn, men också
 att ha namn som inte låser stilen för elementen.  
 Till exempel är:
 ```CSS
