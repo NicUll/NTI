@@ -9,3 +9,79 @@ body, h1, h2, h3, h4, h5, h6, p, ul{
     margin: 0;
     padding: 0;
 }
+
+/*Element*/
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center; 
+}
+
+h1{
+    font-size: 2.8em;
+}
+
+h2{
+    font-size: 2.3em;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    padding: 15px 0;
+}
+
+.op-head{
+    margin: 10px 0;
+}
+
+/*Allmän stylande, klasser*/
+
+.main-title{
+    margin: 30px 0;
+}
+
+.text-cont{
+    padding: 30px;
+    padding-right: 70px;
+}
+
+.op-box{
+    display: flex;
+    flex-flow: column;
+}
+
+.font-style-1{
+    font-family: 'Indie Flower', cursive;
+}
+
+.font-style-2{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Purple*/
+.color-primary-0 { color: #BF52C3 }	/* Main Primary color */
+.color-primary-1 { color: #EDAEEF }
+.color-primary-2 { color: #D77BDB }
+.color-primary-3 { color: #A533A9 }
+.color-primary-4 { color: #941998 }
+
+
+/*Red*/
+.color-secondary-1-0 { color: #EC638E }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #FAB6CC }
+.color-secondary-1-2 { color: #F388AA }
+.color-secondary-1-3 { color: #E34477 }
+.color-secondary-1-4 { color: #CF2158 }
+
+.bg-color-secondary-1-0 { background: #EC638E }
+.bg-color-secondary-2-0 { background: #8A5EC8 }	
+
+
+/*Blue*/
+.color-secondary-2-0 { color: #8A5EC8 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #CEB5F0 }
+.color-secondary-2-2 { color: #AA84DE }
+.color-secondary-2-3 { color: #6E3FAF }
+.color-secondary-2-4 { color: #57259E }
