@@ -33,7 +33,7 @@ $(”h1”).text(); //Hämta
 $(”h1”).text(”Ny text”); //Ändra
 ```
 
-Vänta på att dokumentet är redo:
+## Vänta på att dokumentet är redo:
 ```javascript
 jQuery(document).ready(function(){
 	<code>
