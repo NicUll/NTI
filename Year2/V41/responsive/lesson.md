@@ -30,9 +30,24 @@
 ### Layout
 #### Flexbox
 * [CSS-tricks guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox på kurssidan](https://twiggy.smutje.se/index.php/Styla_horisontell_placering_med_CSS_flexbox) 
 * [Mastering Flexbox - interaktiv sida](http://webdesignerwall.com/tutorials/master-css-flexbox-5-simple-steps)
 
 
 #### Float
 * [CSS-tricks float](https://css-tricks.com/almanac/properties/f/float/)
 * [Kurssidans](https://twiggy.smutje.se/index.php/Skapa_snyggt_bildgalleri)
+
+
+## Responsiv
+
+* [Viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) - Måste finnas med.  
+Använd som standard ```HTML <meta name="viewport" content="width=device-width, initial-scale=1">```
+* [Responsiv layout](https://twiggy.smutje.se/index.php/Skapa_en_webbsida_med_responsiv_layout) - Vägledning och tips för media queries och vad man ska tänka på vid design för olika enheter.
+
+
+## Webbutveckling allmänt
+
+* [God praxis för webbutveckling](https://twiggy.smutje.se/index.php/God_praxis_f%C3%B6r_webbutveckling) - Lite om kommentarer, namngivning, etc.
+
+
