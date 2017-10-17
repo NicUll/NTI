@@ -10,6 +10,8 @@ function PlayField(width, height){
     
     
     this.update = function(){
+        this.snake.move();
+        this.snake.show();
         
     }
     

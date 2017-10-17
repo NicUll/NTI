@@ -27,6 +27,18 @@ function Snake(x, y) {
         }
     }
     
+    this.changeDirection = function(){
+        if(keyCode == LEFT_ARROW){
+            this.direction = LEFT;
+        }else if(keyCode == RIGHT_ARROW){
+            this.direction = RIGHT;
+        }else if(keyCode == UP_ARROW){
+            this.direction = UP;
+        }else if(keyCode == DOWN_ARROW){
+            this.direction = DOWN;
+        }
+    }
+    
     this.eat = function(){
         var lastBlock = this.body[this.body.length - 1]; //Sista blocket i listan, svansen
     
