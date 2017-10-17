@@ -17,10 +17,10 @@ function Snake(x, y) {
     this.direction = RIGHT;
 
     //Börja med att skapa huvud
-    this.head = new Block(this.x, this.y);
+    this.head = new Block(x, y);
 
     this.body = [this.head]; //Lista med kropps-block
-
+    
     this.show = function () {
         for (var i = 0; i < this.body.length; i++) {
             this.body[i].show();
@@ -28,9 +28,9 @@ function Snake(x, y) {
     }
     
     this.eat = function(){
-        var lastBlock = this.body[this.body.length - 1];
-        
-        var tempBlock = new Block(lastBlock.x, lastBlock.y);
+        var lastBlock = this.body[this.body.length - 1]; //Sista blocket i listan, svansen
+    
+        var tempBlock = new Block(lastBlock.x, lastBlock.y); //Nytt block som läggs till
         
         this.move();
         
