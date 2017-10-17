@@ -14,25 +14,35 @@ const DOWN = 3;
 
 
 function Snake(x, y) {
-    this.x = x; //Ormens x-position
-    this.y = y; //Ormens y-position
     this.direction = RIGHT;
 
     //Börja med att skapa huvud
-    this.head = new Block(this.x, this.y);
+    this.head = new Block(x, y);
 
     this.body = [this.head]; //Lista med kropps-block
-
+    
     this.show = function () {
         for (var i = 0; i < this.body.length; i++) {
             this.body[i].show();
         }
     }
     
+    this.changeDirection = function(){
+        if(keyCode == LEFT_ARROW){
+            this.direction = LEFT;
+        }else if(keyCode == RIGHT_ARROW){
+            this.direction = RIGHT;
+        }else if(keyCode == UP_ARROW){
+            this.direction = UP;
+        }else if(keyCode == DOWN_ARROW){
+            this.direction = DOWN;
+        }
+    }
+    
     this.eat = function(){
-        var lastBlock = this.body[this.body.length - 1];
-        
-        var tempBlock = new Block(lastBlock.x, lastBlock.y);
+        var lastBlock = this.body[this.body.length - 1]; //Sista blocket i listan, svansen
+    
+        var tempBlock = new Block(lastBlock.x, lastBlock.y); //Nytt block som läggs till
         
         this.move();
         
