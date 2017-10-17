@@ -1,5 +1,9 @@
 # Hemuppgift 2 - Responsiv Layout
 
+## Kunskaper
+
+[All nödvändig teori finns att hitta här](https://github.com/NicUll/NTI/blob/master/Year2/V41/responsive/lesson.md)
+
 ## Uppgiftsbeskrivning
 
 Uppgiften är att skapa en hemsida som visar upp två motsatser i form av varsin bild,  
