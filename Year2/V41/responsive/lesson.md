@@ -1,14 +1,14 @@
 # HTML - Skelett
 
-## XML
+### XML
 [XML på wikipedia](https://sv.wikipedia.org/wiki/XML)
 [XML på w3schools](https://www.w3schools.com/xml/)
 
-## W3C standard
+### W3C standard
 [Innehållstyper](http://w3c.github.io/html/dom.html#kinds-of-content)
 [Sektioner](http://w3c.github.io/html/sections.html#sections)
 
-## Tips och exempel
+### Tips och exempel
 [HTML och CSS template](https://tutorialzine.com/2010/02/html5-css3-website-template)
 [HTML5 template](https://gist.github.com/jaxon/3913867)
 [HTML5 på kurswebben](https://twiggy.smutje.se/index.php/Anv%C3%A4nda_HTML5_semantiska_element#Varf.C3.B6r_semantiska_element.3F)
@@ -17,16 +17,16 @@
 
 # CSS - Övergripande
 
-## Namngivning och selektorer
+### Namngivning och selektorer
 [Hur namnger man css-klasser](http://bdavidxyz.com/blog/how-to-name-css-classes/)
 
 [Selektorer](https://www.w3schools.com/css/css_syntax.asp)
 
-## Styling
+### Styling
 [Text, W3 Schools](https://www.w3schools.com/css/css_text.asp)
 [Text, Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals)
 [Boxar](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes)
 
-## Layout
+### Layout
 [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 [Float](https://css-tricks.com/almanac/properties/f/float/)
