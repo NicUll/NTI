@@ -28,5 +28,11 @@
 * [Boxar](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_boxes)
 
 ### Layout
-* [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-* [Float](https://css-tricks.com/almanac/properties/f/float/)
+#### Flexbox
+* [CSS-tricks guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Mastering Flexbox - interaktiv sida](http://webdesignerwall.com/tutorials/master-css-flexbox-5-simple-steps)
+
+
+#### Float
+* [CSS-tricks float](https://css-tricks.com/almanac/properties/f/float/)
+* [Kurssidans](https://twiggy.smutje.se/index.php/Skapa_snyggt_bildgalleri)
