@@ -14,8 +14,6 @@ const DOWN = 3;
 
 
 function Snake(x, y) {
-    this.x = x; //Ormens x-position
-    this.y = y; //Ormens y-position
     this.direction = RIGHT;
 
     //Börja med att skapa huvud
