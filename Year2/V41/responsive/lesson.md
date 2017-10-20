@@ -56,6 +56,20 @@ Använd som standard ```HTML <meta name="viewport" content="width=device-width, 
 
 Det är bara det enklaste som ska användas, inga avancerade media-queries behövs!
 
+```css
+/*definiera CSS som vanligt här, anpassa för mobil först*/
+
+@media (min-width: 801px){
+  /*Kod för datorskärmar*/
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+  /*Kod för tablets om man har det*/
+}
+
+```
+Anpassa min och max lite efter vad som funkar för just din sida.
+
 
 ## Webbutveckling allmänt
 
