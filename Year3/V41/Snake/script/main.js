@@ -1,6 +1,7 @@
 
 var myGame;
 
+
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
     var y = (windowHeight - height) / 2
@@ -14,12 +15,14 @@ function windowResized() {
 
 
 function setup() {
+    frameRate(20);
+    
     cnv = createCanvas(800, 600);
 
     background(0);
     centerCanvas();
     
-    myGame = new Game();
+    myGame = new Game(800, 600);
     myGame.start();
 
     
