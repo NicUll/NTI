@@ -1,5 +1,6 @@
 
 var myGame;
+var directions = {[LEFT_ARROW]:[-1,0], [UP_ARROW]:[0,-1]};
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
@@ -18,15 +19,11 @@ function setup() {
 
     background(0);
     centerCanvas();
-    
+    /*
     myGame = new Game();
-    myGame.generatePlayField(800, 600);
     
     myGame.start();
-    myGame.playField.snake.eat()
-    myGame.playField.snake.eat()
-    myGame.playField.snake.eat()
-    
+    */
     fill(255);
     stroke(255);
     
@@ -34,13 +31,17 @@ function setup() {
 }
 
 function keyPressed(){
-    myGame.handleInput();
+    //myGame.handleInput();
+    console.log(keyCode);
+    console.log(directions);
+    if(String(keyCode) in directions){
+        console.log(directions[keyCode]);
+    }
 
 }
 
 
 function draw() {
     background(0);
-    myGame.play();
-    
+    //myGame.play();
 }

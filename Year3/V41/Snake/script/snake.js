@@ -1,23 +1,15 @@
 const SIZE = 10;
-const SEPARATION = 4;
-
-const DIST = SIZE + SEPARATION;
-
 
 const LEFT = 0;
 const UP = 1;
 const RIGHT = 2;
 const DOWN = 3;
 
-/* Förklara på GitHub */
-//Rör den sig i x-led?
-
-
 function Snake(x, y) {
     this.direction = RIGHT;
 
-    //Börja med att skapa huvud
-    this.head = new Block(x, y);
+    this.x = x;
+    this.y = y;
 
     this.body = [this.head]; //Lista med kropps-block
     
