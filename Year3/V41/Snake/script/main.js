@@ -17,6 +17,7 @@ function windowResized() {
 function setup() {
     frameRate(20);
     
+    
     cnv = createCanvas(800, 600);
 
     background(0);
@@ -28,6 +29,7 @@ function setup() {
 
     fill(255);
     stroke(255);
+    textAlign(CENTER, CENTER);
     
     
     
