@@ -29,25 +29,38 @@ function Snake(gWidth, gHeight) {
 
     this.move = function () {
         
+        var nextHeadX = this.head.x + this.direction[0];
+        var nextHeadY = this.head.y + this.direction[1];
+        var noCollision = true;
+        
+        
         for (var i = this.body.length - 1; i > 0; i--) {
+            
             this.body[i].x = this.body[i - 1].x;
             this.body[i].y = this.body[i - 1].y;
+            if(dist(this.body[i].x,this.body[i].y,nextHeadX,nextHeadY) <  1){
+                noCollision = false;
+            }
         }
 
         //Vilken riktning har huvudet?
         this.head.x += this.direction[0];
         this.head.y += this.direction[1];
         
+        
         //Kör runt kanten
-        if(this.head.x == this.maxX){
+        if(this.head.x > this.maxX-1){
             this.head.x = 0;
-        }else if(this.head.x == 0){
+        }else if(this.head.x < 0){
             this.head.x = this.maxX;
-        }else if(this.head.y == this.maxY){
+        }else if(this.head.y > this.maxY-1){
             this.head.y = 0;
-        }else if(this.head.y == 0){
+        }else if(this.head.y < 0){
             this.head.y = this.maxY;
         }  
+        
+        return noCollision;
+        
     }
 }
 
@@ -57,6 +70,7 @@ function Block(x, y) {
 
     this.show = function () {
         fill(255,255,255);
+        stroke(0,0,0);
         rect(this.x*SIZE, this.y*SIZE, SIZE, SIZE);
     }
 
