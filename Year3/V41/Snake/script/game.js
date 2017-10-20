@@ -24,6 +24,7 @@ function Game() {
 >>>>>>> parent of 9308048... Lesson done
         }
     }
+    
 
     this.reset = function() {
 
