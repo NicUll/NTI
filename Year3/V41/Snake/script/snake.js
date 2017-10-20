@@ -1,15 +1,35 @@
 const SIZE = 10;
 
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> parent of 9308048... Lesson done
 const LEFT = 0;
 const UP = 1;
 const RIGHT = 2;
 const DOWN = 3;
+<<<<<<< HEAD
 
 function Snake(x, y) {
     this.direction = RIGHT;
 
     this.x = x;
     this.y = y;
+=======
+*/
+
+
+
+/* Förklara på GitHub */
+//Rör den sig i x-led?
+
+
+function Snake(x, y) {
+    this.direction = RIGHT;
+
+    //Börja med att skapa huvud
+    this.head = new Block(x, y);
+>>>>>>> parent of 9308048... Lesson done
 
     this.body = [this.head]; //Lista med kropps-block
     

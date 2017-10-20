@@ -1,6 +1,9 @@
 
 var myGame;
+<<<<<<< HEAD
 var directions = {[LEFT_ARROW]:[-1,0], [UP_ARROW]:[0,-1]};
+=======
+>>>>>>> parent of 9308048... Lesson done
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
@@ -22,6 +25,10 @@ function setup() {
     /*
     myGame = new Game();
     
+<<<<<<< HEAD
+=======
+    myGame = new Game();
+>>>>>>> parent of 9308048... Lesson done
     myGame.start();
     */
     fill(255);
