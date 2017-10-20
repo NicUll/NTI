@@ -20,15 +20,14 @@ function setup() {
     centerCanvas();
     
     myGame = new Game();
-    myGame.generatePlayField(800, 600);
-    
     myGame.start();
-    myGame.playField.snake.eat()
-    myGame.playField.snake.eat()
-    myGame.playField.snake.eat()
+
     
     fill(255);
     stroke(255);
+    
+    
+    
     
 
 }
