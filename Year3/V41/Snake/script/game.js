@@ -11,6 +11,7 @@ function Game() {
             this.playField.update();
         }
     }
+    
 
     this.reset = function() {
 
