@@ -1,50 +1,5 @@
 const SIZE = 10;
-<<<<<<< HEAD
-=======
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/*
->>>>>>> parent of 9308048... Lesson done
-const LEFT = 0;
-const UP = 1;
-const RIGHT = 2;
-const DOWN = 3;
-<<<<<<< HEAD
-=======
->>>>>>> parent of 206399f... Revert "Merge branch 'master' into snake_comp"
-
->>>>>>> master
-
-
-
-<<<<<<< HEAD
-function Snake(x, y) {
-    this.direction = RIGHT;
-
-    this.x = x;
-    this.y = y;
-=======
-<<<<<<< HEAD
-*/
-
-
-
-=======
->>>>>>> parent of 206399f... Revert "Merge branch 'master' into snake_comp"
-/* Förklara på GitHub */
-//Rör den sig i x-led?
-
-
-<<<<<<< HEAD
-function Snake(x, y) {
-    this.direction = RIGHT;
-
-    //Börja med att skapa huvud
-    this.head = new Block(x, y);
->>>>>>> parent of 9308048... Lesson done
-=======
 function Snake(gWidth, gHeight) {
     this.maxX = gWidth/SIZE;
     this.maxY = gHeight/SIZE;
@@ -52,8 +7,6 @@ function Snake(gWidth, gHeight) {
 
     //Börja med att skapa huvud
     this.head = new Block(10,5);
->>>>>>> master
->>>>>>> parent of 206399f... Revert "Merge branch 'master' into snake_comp"
 
     this.body = [this.head]; //Lista med kropps-block
     
@@ -94,15 +47,9 @@ function Snake(gWidth, gHeight) {
             this.head.y = 0;
         }else if(this.head.y == 0){
             this.head.y = this.maxY;
-        }
-        
+        }  
     }
-
-
-
-
 }
-
 
 function Block(x, y) {
     this.x = x;

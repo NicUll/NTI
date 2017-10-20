@@ -1,9 +1,5 @@
 
 var myGame;
-<<<<<<< HEAD
-var directions = {[LEFT_ARROW]:[-1,0], [UP_ARROW]:[0,-1]};
-=======
->>>>>>> parent of 9308048... Lesson done
 
 
 function centerCanvas() {
@@ -25,23 +21,11 @@ function setup() {
 
     background(0);
     centerCanvas();
-<<<<<<< HEAD
-    /*
-    myGame = new Game();
-    
-<<<<<<< HEAD
-=======
-    myGame = new Game();
->>>>>>> parent of 9308048... Lesson done
-    myGame.start();
-    */
-=======
+
     
     myGame = new Game(800, 600);
     myGame.start();
 
-    
->>>>>>> master
     fill(255);
     stroke(255);
     

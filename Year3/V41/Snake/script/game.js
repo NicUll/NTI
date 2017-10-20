@@ -1,25 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-function Game() {
-    this.playing = false;
-    this.lost = false;
-=======
-var directions = {37:[-1,0], 38:[0,-1], 39:[1,0], 40:[0,1]};
 
-function Game() {
-    this.playing = false;
-    this.lost = false;
-
-    var x = 5;
->>>>>>> parent of 9308048... Lesson done
-=======
 var directions = {37:[-1,0], 38:[0,-1], 39:[1,0], 40:[0,1]};
 
 function Game(gWidth, gHeight) {
     this.playing = false;
     this.lost = false;
-<<<<<<< HEAD
-=======
+
     this.snake = new Snake(gWidth, gHeight);
     
     this.food = {x:null,y:null};
@@ -29,8 +14,7 @@ function Game(gWidth, gHeight) {
         this.food.y = Math.floor(Math.random()*(gHeight/SIZE));
         
     }
->>>>>>> master
->>>>>>> parent of 206399f... Revert "Merge branch 'master' into snake_comp"
+
 
     this.start = function() {
         this.playing = true;
@@ -39,12 +23,7 @@ function Game(gWidth, gHeight) {
 
     this.play = function(){
         if (this.playing) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.playField.update();
-=======
->>>>>>> parent of 9308048... Lesson done
-=======
+
             this.snake.show();
             fill(0,255,0);
             rect(this.food.x, this.food.y, SIZE, SIZE);
@@ -54,8 +33,6 @@ function Game(gWidth, gHeight) {
             if(dist(this.snake.head.x, this.snake.head.y, this.food.x, this.food.y) < 3){
                 this.snake.eat();
             }
-            
->>>>>>> parent of 206399f... Revert "Merge branch 'master' into snake_comp"
         }
     }
 
@@ -71,24 +48,11 @@ function Game(gWidth, gHeight) {
         this.lost = true;
     }
 
-<<<<<<< HEAD
-    this.handleInput= function() {
-    
-=======
-    this.handleInput = function() {
-<<<<<<< HEAD
-        if(keyCode in directions){
-            console.log(directions[keyCode]);
-        }
->>>>>>> parent of 9308048... Lesson done
-=======
-        
+    this.handleInput = function() {     
         //Sätter rätt riktning på snake-objektet
         if(keyCode in directions){
             this.snake.direction = directions[keyCode];
         }
->>>>>>> master
->>>>>>> parent of 206399f... Revert "Merge branch 'master' into snake_comp"
 
     }
 
