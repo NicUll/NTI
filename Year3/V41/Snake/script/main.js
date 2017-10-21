@@ -1,5 +1,6 @@
 
-var mySnake;
+var myGame;
+
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
@@ -14,30 +15,38 @@ function windowResized() {
 
 
 function setup() {
+    frameRate(20);
+    
     cnv = createCanvas(800, 600);
 
     background(0);
     centerCanvas();
+
     
-    mySnake = new Snake(200,200);
-    mySnake.eat();
-    mySnake.eat();
-    mySnake.eat();
-    
+    myGame = new Game(800, 600);
+    myGame.start();
+
     fill(255);
     stroke(255);
+    
+    
+    
     
 
 }
 
 function keyPressed(){
+    //myGame.handleInput();
+    console.log(keyCode);
+    console.log(directions);
+    if(String(keyCode) in directions){
+        console.log(directions[keyCode]);
+    }
 
 }
 
 
 function draw() {
     background(0);
-    mySnake.show();
-    mySnake.move();
-
+    //myGame.play();
 }

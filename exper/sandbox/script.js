@@ -1,7 +1,8 @@
-
-
-function main() {
-    var text = "abcd";
-    text = "efgh";
-    console.log(text);
-}
+$(function(){
+    
+    $(".nav-item").on("click", function(){
+        $(this).find(".content").slideToggle();
+        
+    })
+    
+})

@@ -1,0 +1,80 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+    font-family: Courier;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(200,200,200);
+    background-image: url(section-grain.png);
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+main{
+    margin: 50px;
+}
+
+.container{
+    width: 100%;
+}
+
+.boxes>h1{
+    text-align: center;
+}
+
+.boxes>p{
+    text-align: center;
+}
+
+.produce{
+    text-align: left;
+}
+
+.product{
+    display: flex;
+}
+
+.item{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.item *{
+    float: right;
+    white-space: pre-wrap;
+}
+
+.item p{
+    font-size: 14px;
+}
+
+.item img{
+    width: 200px;
+    float: left;
+}
+
+
+
+button{
+    background-color: darkgreen;
+    padding:10px;
+    color: white;
+    border-radius: 8px;
+    border-style: none;
+}
