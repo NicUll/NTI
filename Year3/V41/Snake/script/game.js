@@ -9,6 +9,7 @@ function Game(gWidth, gHeight) {
     this.playing = false;
     this.lost = false;
     this.score = 0;
+    this.level = 1;
 
     this.snake = new Snake(gWidth, gHeight);
 
@@ -18,6 +19,8 @@ function Game(gWidth, gHeight) {
         x: null,
         y: null
     };
+    
+    this.nextDirection = [[0,0]];
 
 
 
@@ -32,12 +35,20 @@ function Game(gWidth, gHeight) {
         this.playing = true;
         this.genFood();
     }
-
-    this.showScore = function () {
+    
+    this.showStats = function() {
+        textSize(16);
+        fill(255);
+        stroke(255);
+        
         var s = "Score: " + this.score;
-        textSize(14);
-        text(s, 550, 20);
+        var l = "Level: " + this.level;
+        
+        textAlign(RIGHT,TOP);
+        text(s +" " + l, gWidth,0);
     }
+
+
 
     this.showFood = function () {
         stroke(0, 0, 0);
@@ -45,6 +56,7 @@ function Game(gWidth, gHeight) {
         rect(this.food.x * SIZE, this.food.y * SIZE, SIZE, SIZE);
     }
 
+    
     this.play = function () {
 
         if (this.lost) {
@@ -86,7 +98,7 @@ function Game(gWidth, gHeight) {
 
         this.snake.show();
         this.showFood();
-        this.showScore();
+        this.showStats();
 
         if (!this.playing) {
             textSize(22);
@@ -95,18 +107,27 @@ function Game(gWidth, gHeight) {
             text("Paused", gWidth / 2, gHeight / 2);
             return;
         }
-
-
-
+        
+        
+        if(this.nextDirection.length > 2){
+            console.log(this.nextDirection);
+        }
+        
+        this.snake.direction = this.nextDirection.pop()
         //Move snake and check if no collision occured, returns "no collision"
         if (!this.snake.move()) {
             this.lose();
         }
+        this.nextDirection = [this.snake.direction];
+        
 
         if (dist(this.snake.head.x, this.snake.head.y, this.food.x, this.food.y) < 1) {
             this.snake.eat();
             this.score++;
             this.genFood();
+            if(this.score%5==0){
+                this.level++;
+            }
         }
 
 
@@ -116,6 +137,7 @@ function Game(gWidth, gHeight) {
         this.playing = false;
         this.lost = false;
         this.score = 0;
+        this.level = 1;
 
         this.snake = new Snake(gWidth, gHeight);
 
@@ -125,6 +147,8 @@ function Game(gWidth, gHeight) {
             x: null,
             y: null
         };
+        
+        this.nextDirection = [[0,0]];
         
 
     }
@@ -140,14 +164,14 @@ function Game(gWidth, gHeight) {
 
     this.handleInput = function () {
         //Sätter rätt riktning på snake-objektet
-        if (keyCode in directions) {
-            console.log(this.snake.direction != [0, 0]);
+        if (keyCode in directions) {;
 
             //Kolla så att vi inte försöker vända ormen rakt om
             if (((directions[keyCode][0] + this.snake.direction[0] == 0) || (directions[keyCode][1] + this.snake.direction[1] == 0)) && !((this.snake.direction[0] == 0) && (this.snake.direction[1] == 0))) {
                 return;
             }
-            this.snake.direction = directions[keyCode];
+            this.nextDirection.push(directions[keyCode]);
+            //this.snake.direction = directions[keyCode];
         }
 
         //Om vi trycker på blanksteg

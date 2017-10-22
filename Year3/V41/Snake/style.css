@@ -10,6 +10,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
+.score{
+    width: 100px;
+    height: 30px;
+    background: red;
+}
+
+
 footer{
     position: fixed;
     bottom: 0;

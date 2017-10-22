@@ -25,6 +25,8 @@ function Snake(gWidth, gHeight) {
         this.move();
         
         this.body.push(tempBlock);
+        
+        
     }
 
     this.move = function () {
