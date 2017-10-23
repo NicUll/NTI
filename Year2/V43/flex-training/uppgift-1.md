@@ -25,7 +25,7 @@
   * <link rel="stylesheet" href="style.css">
   
 4. Gör ett skelett i body
-  * <header>
-  * <main>
-  * <footer>
+  * <header> -tag
+  * <main> -tag
+  * <footer> -tag
   
