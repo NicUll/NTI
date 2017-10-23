@@ -27,13 +27,14 @@ header h1{
 
 .flex-parent{
     width: 800px;
-    height: 600px;
+    height: 300px;
     margin: 0 auto;
     padding: 20px;
     border: 2px dashed black;
     
     /*Kod här*/
     display: flex;
+
 }
 
 .flex-child{
@@ -44,10 +45,12 @@ header h1{
     
     /*Kod här*/
     
+    
 }
 
 .flex3{
     width: 100px;
+    
 }
 
 .flex5{
