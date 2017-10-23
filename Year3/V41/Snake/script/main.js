@@ -19,7 +19,6 @@ function setup() {
     
     cnv = createCanvas(800, 600);
 
-    background(0);
     centerCanvas();
 
     
@@ -27,26 +26,24 @@ function setup() {
     myGame.start();
 
     fill(255);
-    stroke(255);
-    
-    
-    
-    
+    stroke(255);    
 
 }
 
 function keyPressed(){
-    //myGame.handleInput();
+    myGame.handleInput();
+    
+    /*
     console.log(keyCode);
     console.log(directions);
     if(String(keyCode) in directions){
         console.log(directions[keyCode]);
-    }
+    }*/
 
 }
 
 
 function draw() {
     background(0);
-    //myGame.play();
+    myGame.play();
 }
