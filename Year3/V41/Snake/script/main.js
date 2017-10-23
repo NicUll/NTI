@@ -15,7 +15,7 @@ function windowResized() {
 
 
 function setup() {
-    frameRate(20);
+    frameRate(60);
     
     
     cnv = createCanvas(800, 600);

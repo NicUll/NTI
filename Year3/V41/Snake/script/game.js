@@ -1,4 +1,4 @@
-var directions = {
+const directions = {
     37: [-1, 0],
     38: [0, -1],
     39: [1, 0],
@@ -6,6 +6,7 @@ var directions = {
 };
 
 function Game(gWidth, gHeight) {
+    /*
     this.playing = false;
     this.lost = false;
     this.score = 0;
@@ -21,6 +22,30 @@ function Game(gWidth, gHeight) {
     };
     
     this.nextDirection = [[0,0]];
+    */
+    this.reset = function () {
+        
+        this.playing = false;
+        this.lost = false;
+        this.score = 0;
+        this.level = 1;
+
+        this.snake = new Snake(gWidth, gHeight);
+
+        this.refFrame = 0;
+
+        this.food = {
+            x: null,
+            y: null
+        };
+        
+        this.nextDirection = [[0,0]];
+        this.timeToUpdate = 14;
+        
+
+    }
+    
+    this.reset();
 
 
 
@@ -61,11 +86,12 @@ function Game(gWidth, gHeight) {
 
         if (this.lost) {
             var elapsedFrames = frameCount - this.refFrame;
-            if (elapsedFrames < 60) {
+            const animationTime = 130;
+            if (elapsedFrames < animationTime) {
                 if (elapsedFrames < 20) {
                     this.snake.show();
                 }
-                if ((Math.floor(elapsedFrames / 4)) % 2 == 0) {
+                if ((Math.floor(elapsedFrames / 8)) % 2 == 0) {
                     this.snake.show();
                 } else {
                     this.snake.head.show();
@@ -105,10 +131,17 @@ function Game(gWidth, gHeight) {
             textSize(22);
             fill(255);
             stroke(255);
+            textAlign(CENTER, CENTER);
             text("Paused", gWidth / 2, gHeight / 2);
             return;
         }
         
+        if(this.timeToUpdate > 0){
+            this.timeToUpdate--;
+            return;
+        }
+        
+        this.timeToUpdate = 15-this.level > 0 ? 15-this.level : 0;
         
         if(this.nextDirection.length > 2){
             console.log(this.nextDirection);
@@ -134,25 +167,7 @@ function Game(gWidth, gHeight) {
 
     }
 
-    this.reset = function () {
-        this.playing = false;
-        this.lost = false;
-        this.score = 0;
-        this.level = 1;
-
-        this.snake = new Snake(gWidth, gHeight);
-
-        this.refFrame = 0;
-
-        this.food = {
-            x: null,
-            y: null
-        };
-        
-        this.nextDirection = [[0,0]];
-        
-
-    }
+    
 
     this.pause = function () {
         this.playing = !this.playing;
