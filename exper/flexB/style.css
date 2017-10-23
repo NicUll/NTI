@@ -10,3 +10,50 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     padding: 0;
 }
 
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: monospace;
+}
+
+header h1{
+    font-size: 4em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.flex-parent{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px dashed black;
+    
+    /*Kod här*/
+    display: flex;
+}
+
+.flex-child{
+    width: 75px;
+    height: 75px;
+    background-color: orange;
+    border: 1px dotted green;
+    
+    /*Kod här*/
+    
+}
+
+.flex3{
+    width: 100px;
+}
+
+.flex5{
+    height: 100px;
+}
+
+.flex6{
+    height:50px;
+}
