@@ -23,7 +23,7 @@ function Game(gWidth, gHeight) {
     
     this.nextDirection = [[0,0]];
     */
-    this.reset = function () {
+    this.reset = function() {
         
         this.playing = false;
         this.lost = false;
@@ -49,6 +49,7 @@ function Game(gWidth, gHeight) {
 
 
 
+    // noinspection UnterminatedStatementJS
     this.genFood = function () {
         this.food.x = Math.floor(Math.random() * (gWidth / SIZE));
         this.food.y = Math.floor(Math.random() * (gHeight / SIZE));
@@ -69,6 +70,7 @@ function Game(gWidth, gHeight) {
         var s = "Score: " + this.score;
         var l = "Level: " + this.level;
         
+        // noinspection Annotator
         textAlign(RIGHT,TOP);
         text(s +" " + l, gWidth,0);
     }
@@ -91,7 +93,7 @@ function Game(gWidth, gHeight) {
                 if (elapsedFrames < 20) {
                     this.snake.show();
                 }
-                if ((Math.floor(elapsedFrames / 8)) % 2 == 0) {
+                if ((Math.floor(elapsedFrames / 8)) % 2 === 0) {
                     this.snake.show();
                 } else {
                     this.snake.head.show();
@@ -148,7 +150,7 @@ function Game(gWidth, gHeight) {
         }
         
         this.snake.direction = this.nextDirection.pop()
-        //Move snake and check if no collision occured, returns "no collision"
+        //Move snake and check if no collision occurred, returns "no collision"
         if (!this.snake.move()) {
             this.lose();
         }
@@ -159,7 +161,7 @@ function Game(gWidth, gHeight) {
             this.snake.eat();
             this.score++;
             this.genFood();
-            if(this.score%5==0){
+            if(this.score%5===0){
                 this.level++;
             }
         }
@@ -180,10 +182,10 @@ function Game(gWidth, gHeight) {
 
     this.handleInput = function () {
         //Sätter rätt riktning på snake-objektet
-        if (keyCode in directions) {;
+        if (keyCode in directions) {
 
             //Kolla så att vi inte försöker vända ormen rakt om
-            if (((directions[keyCode][0] + this.snake.direction[0] == 0) || (directions[keyCode][1] + this.snake.direction[1] == 0)) && !((this.snake.direction[0] == 0) && (this.snake.direction[1] == 0))) {
+            if (((directions[keyCode][0] + this.snake.direction[0] === 0) || (directions[keyCode][1] + this.snake.direction[1] === 0)) && !((this.snake.direction[0] === 0) && (this.snake.direction[1] === 0))) {
                 return;
             }
             this.nextDirection.push(directions[keyCode]);
@@ -191,15 +193,15 @@ function Game(gWidth, gHeight) {
         }
 
         //Om vi trycker på blanksteg
-        if (keyCode == 32) {
+        if (keyCode === 32) {
             this.pause();
         }
 
-        if (keyCode == 71) {
+        if (keyCode === 71) {
             this.snake.eat();
         }
 
-        if (keyCode == 82) {
+        if (keyCode === 82) {
             this.reset();
             this.start();
         }
