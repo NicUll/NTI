@@ -75,16 +75,17 @@ function Game(gWidth, gHeight) {
             this.snake.show();
 
             push();
-
+            textAlign(CENTER, CENTER);
             translate(gWidth / 2, gHeight / 2);
 
             textSize(36);
+            strokeWeight(4);
             fill(255);
             stroke(255, 0, 0);
             text("GAME OVER", 0, 0);
 
             textSize(24);
-            stroke(255, 255, 255);
+            //stroke(255, 255, 255);
             text("Score: " + this.score, 0, 50);
 
             textSize(12);

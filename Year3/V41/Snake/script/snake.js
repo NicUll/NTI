@@ -1,4 +1,4 @@
-const SIZE = 10;
+const SIZE = 20;
 
 function Snake(gWidth, gHeight) {
     this.maxX = gWidth/SIZE;
