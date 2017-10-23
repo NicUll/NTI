@@ -14,18 +14,25 @@
   * style.css
   
 2. Skriv grundläggande html:
-  * Doctype
-  * html - inklusive *lang*
-  * head
-  * body
+ ```HTML
+ <!doctype>
+ <html lang=""> 
+ <head>
+ <body>
+```
+Glöm ej fylla i lang och att avsluta taggarna.
   
 3. Fyll i header:
-  * <meta> med charset
-  * <title> valfritt
-  * <link rel="stylesheet" href="style.css">
+ ```HTML
+ <meta charset="">
+ <title>
+ <link rel="stylesheet" href="style.css">
+ ```
   
 4. Gör ett skelett i body
-  * <header> -tag
-  * <main> -tag
-  * <footer> -tag
+ ```HTML
+ <header>
+ <main>
+ <footer>
+ ```
   
