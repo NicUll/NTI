@@ -22,13 +22,13 @@ function Game(gWidth, gHeight) {
         };
         
         this.score = 0;
-        this.progressBar = new p5.Element(div);
     }
     
     this.reset();
     
-    this.setupProgressBar(){
-        this.progressBar.position(100,100);
+    this.setupProgressBar = function(){
+        progressBar = createDiv("div");
+        progressBar.position();
     }
 
     this.genFood = function () {

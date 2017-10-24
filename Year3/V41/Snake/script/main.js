@@ -1,5 +1,6 @@
 
 var myGame;
+var progressBar;
 
 
 function centerCanvas() {
@@ -24,6 +25,7 @@ function setup() {
     
     myGame = new Game(800, 600);
     myGame.start();
+    myGame.setupProgressBar();
 
     fill(255);
     stroke(255);    
