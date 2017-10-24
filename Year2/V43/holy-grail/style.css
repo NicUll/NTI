@@ -1,0 +1,107 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/***********
+*** GENERAL ELEMENT STYLES ***/
+body{
+    font-family: sans-serif;
+}
+
+
+
+header {
+    padding: 20px;
+    font-size: 0.7em;
+}
+
+footer{
+    
+    
+    padding: 10px;
+    font-size: 0.7em;
+}
+
+header, footer{
+    background: #ff704d;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+/****************/
+
+/***********
+**** MAIN CONTAINERS *****/
+
+.main-content{
+    order: 0;
+    padding: 20px;
+    line-height: 170%;
+    min-height: 100vh;
+   
+}
+
+
+.main-side{
+    background-color: #EEE;
+    flex: 0 0 12em;
+    padding: 20px;
+   
+}
+
+.main-nav{
+    order: -1;
+    
+}
+
+.main-ads{
+    order: 1;
+    
+}
+
+
+
+/********************/
+
+/****************
+*****SPECIFIC FORMATTING***/
+
+.main-content *{
+    margin:10px 0;
+}
+
+
+
+
+
+
+
+/******************************/
+
+
+
+
+/*********
+****Media Queries *****/
+
+@media (min-width: 768px){
+    
+    main{
+        flex-direction: row;
+    }
+}
