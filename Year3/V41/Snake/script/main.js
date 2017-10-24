@@ -33,12 +33,6 @@ function setup() {
 function keyPressed(){
     myGame.handleInput();
     
-    /*
-    console.log(keyCode);
-    console.log(directions);
-    if(String(keyCode) in directions){
-        console.log(directions[keyCode]);
-    }*/
 
 }
 

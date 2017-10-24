@@ -6,15 +6,25 @@ var directions = {
 };
 
 function Game(gWidth, gHeight) {
-    this.playing = false;
-    this.lost = false;
 
-    this.snake = new Snake(gWidth, gHeight);
+    
 
-    this.food = {
-        x: null,
-        y: null
-    };
+
+    this.reset = function () {
+        this.playing = false;
+        this.lost = false;
+
+        this.snake = new Snake(gWidth, gHeight);
+
+        this.food = {
+            x: null,
+            y: null
+        };
+        
+        this.score = 0;
+    }
+    
+    this.reset();
 
 
     this.genFood = function () {
@@ -30,7 +40,15 @@ function Game(gWidth, gHeight) {
 
     this.showFood = function () {
         fill(0, 255, 0);
-        rect(this.food.x*SIZE, this.food.y*SIZE, SIZE, SIZE);
+        rect(this.food.x * SIZE, this.food.y * SIZE, SIZE, SIZE);
+    }
+    
+    this.showStats = function(){
+        fill(255);
+        stroke(255);
+        textSize(16);
+        textAlign(RIGHT, TOP);
+        text("Score: " + this.score, gWidth-10, 10);
     }
 
     this.foodCollide = function () {
@@ -40,28 +58,34 @@ function Game(gWidth, gHeight) {
         var FY = this.food.y;
 
         if (dist(HX, HY, FX, FY) < 1) {
+            this.score++;
             return true;
         }
         return false;
     }
 
-    
+
     this.play = function () {
-        
+
         if (this.lost) {
+            textSize(30);
+            fill(255,0,0);
+            textAlign(CENTER,CENTER);
+            text("GAME OVER", gWidth/2, gHeight/2);
             return;
         }
 
         this.snake.show();
         this.showFood();
-    
+        this.showStats();
+
 
         if (!this.playing) {
             return;
         }
 
         this.snake.move();
-        if(this.snake.collision){
+        if (this.snake.collision) {
             this.lose();
         }
 
@@ -69,16 +93,14 @@ function Game(gWidth, gHeight) {
         if (this.foodCollide()) {
             this.snake.eat();
             this.genFood();
-            
+
         }
 
 
     }
 
 
-    this.reset = function () {
-
-    }
+    
 
     this.pause = function () {
         this.playing = false;
@@ -91,7 +113,17 @@ function Game(gWidth, gHeight) {
     this.handleInput = function () {
         //Sätter rätt riktning på snake-objektet
         if (keyCode in directions) {
+            
+            
+            
             this.snake.direction = directions[keyCode];
+        } else if (keyCode === 32) {
+            this.playing = !this.playing;
+        } else if (keyCode === 71) {
+            this.snake.eat();
+        } else if(keyCode === 82){
+            this.reset();
+            this.start();
         }
 
     }
