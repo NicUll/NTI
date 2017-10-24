@@ -8,7 +8,7 @@ var directions = {
 function Game(gWidth, gHeight) {
 
     
-
+    
 
     this.reset = function () {
         this.playing = false;
@@ -22,10 +22,14 @@ function Game(gWidth, gHeight) {
         };
         
         this.score = 0;
+        this.progressBar = new p5.Element(div);
     }
     
     this.reset();
-
+    
+    this.setupProgressBar(){
+        this.progressBar.position(100,100);
+    }
 
     this.genFood = function () {
         this.food.x = Math.floor(Math.random() * (gWidth / SIZE));

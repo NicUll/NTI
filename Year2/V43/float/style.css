@@ -1,0 +1,59 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Stänger av float och löser collapsing boxes syndrom */
+.clearfix:after {
+    
+    content: ".";
+    
+    
+    display: block;
+    
+    visibility: hidden;
+    
+    
+    background: pink;
+    clear: both;
+}
+
+
+.container{
+    border: 2px solid red;
+    width: 600px;
+    padding: 10px;
+    color: red;
+}
+
+.f-left{
+    width: 200px;
+    height: 500px;
+    border: 2px dotted orange;
+    float: left;
+    color:black;
+}
+
+
+
+.f-right{
+    width: 120px;
+    height: 300px;
+    border: 2px dashed green;
+    float: right;
+    color:black;
+}
+
+
+
+
