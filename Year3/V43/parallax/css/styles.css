@@ -1,0 +1,72 @@
+@import url(fluid_skeleton.css);
+@import url(normalize.css);
+body {
+    font: 100%/1.5em 'PT Sans', sans-serif;
+}
+h1,
+h2,
+h3 {
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    text-align: center;
+}
+header {
+    background: #4b371f;
+    color: #FFF;
+    text-align: center;
+    padding: 10% 0 15% 0;
+}
+header h1 {
+    font-size: 3em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+header a.button {
+    background: #e33f0c;
+    text-align: center;
+    padding: .5em 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0.2em 0 #ab3009;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: background 0.2s ease-out;
+}
+header a.button:hover {
+    background: #ab3009;
+}
+@media only screen and (min-width: 800px) {
+    body {
+        font-size: 1.125em;
+        /* 18px / 16px */
+        line-height: 1.7em;
+    }
+    header.band {
+        background-image: url(../images/one.jpg);
+        background-size: cover;
+        height: 650px;
+    }
+    header.band h1 {
+        font-size: 3.25em;
+        /*52 / 16*/
+    }
+    a.button {
+        padding: .75em 1.5em;
+    }
+    .columns {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .band.two {
+        background-image: url(../images/two.jpg);
+        background-size: cover;
+        height: 500px;
+    }
+    .band.three {}
+    .band.four {
+        background-image: url(../images/three.jpg);
+        background-size: cover;
+        height: 500px;
+    }
+}
