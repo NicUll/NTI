@@ -1,4 +1,3 @@
-
 const directions = {
 
     37: [-1, 0],
@@ -7,11 +6,13 @@ const directions = {
     40: [0, 1]
 };
 
+const LEVEL_DIV = 5;
+
 function Game(gWidth, gHeight) {
 
 
-    this.reset = function() {
-        
+    this.reset = function () {
+
         this.playing = false;
         this.lost = false;
         this.score = 0;
@@ -26,17 +27,15 @@ function Game(gWidth, gHeight) {
             x: null,
             y: null
         };
-        
 
-        
-        this.nextDirection = [[0,0]];
+
+        this.nextDirection = [[0, 0]];
         this.timeToUpdate = 14;
-        
+
 
     }
-    
-    this.reset();
 
+    this.reset();
 
 
     // noinspection UnterminatedStatementJS
@@ -51,18 +50,33 @@ function Game(gWidth, gHeight) {
         this.playing = true;
         this.genFood();
     }
-    
-    this.showStats = function() {
+
+    this.showStats = function () {
         textSize(16);
         fill(255);
         stroke(255);
-        
+
         var s = "Score: " + this.score;
-        var l = "Level: " + this.level;
-        
-        // noinspection Annotator
-        textAlign(RIGHT,TOP);
-        text(s +" " + l, gWidth,0);
+        var l = "\nLevel: " + this.level + " ";
+
+        push();
+        translate(gWidth-20,40);
+        textAlign(RIGHT, BOTTOM);
+        text(s + " " + l, 0, 0);
+
+        push();
+            rotate(PI);
+            translate(-5,0);
+
+            var yScale = 40/LEVEL_DIV;
+            var progress = this.score%LEVEL_DIV;
+            console.log(progress);
+            for(var i=0;i<progress;i++){
+                rect(0, yScale*i, 5, 5);
+            }
+        pop();
+        pop();
+
     }
 
 
@@ -72,7 +86,8 @@ function Game(gWidth, gHeight) {
         rect(this.food.x * SIZE, this.food.y * SIZE, SIZE, SIZE);
     }
 
-    
+
+
     this.play = function () {
 
         if (this.lost) {
@@ -126,31 +141,31 @@ function Game(gWidth, gHeight) {
             text("Paused", gWidth / 2, gHeight / 2);
             return;
         }
-        
-        if(this.timeToUpdate > 0){
+
+        if (this.timeToUpdate > 0) {
             this.timeToUpdate--;
             return;
         }
-        
-        this.timeToUpdate = 15-this.level > 0 ? 15-this.level : 0;
-        
-        if(this.nextDirection.length > 2){
+
+        this.timeToUpdate = 15 - this.level > 0 ? 15 - this.level : 0;
+
+        if (this.nextDirection.length > 2) {
             console.log(this.nextDirection);
         }
-        
+
         this.snake.direction = this.nextDirection.pop()
         //Move snake and check if no collision occurred, returns "no collision"
         if (!this.snake.move()) {
             this.lose();
         }
         this.nextDirection = [this.snake.direction];
-        
+
 
         if (dist(this.snake.head.x, this.snake.head.y, this.food.x, this.food.y) < 1) {
             this.snake.eat();
             this.score++;
             this.genFood();
-            if(this.score%5===0){
+            if (this.score % LEVEL_DIV === 0) {
                 this.level++;
             }
         }
@@ -158,7 +173,6 @@ function Game(gWidth, gHeight) {
 
     }
 
-    
 
     this.pause = function () {
         this.playing = !this.playing;
@@ -192,6 +206,15 @@ function Game(gWidth, gHeight) {
         if (keyCode === 82) {
             this.reset();
             this.start();
+        }
+
+        if (keyCode == 80){
+            this.snake.eat();
+            this.score++;
+            if (this.score % LEVEL_DIV === 0) {
+                this.level++;
+            }
+
         }
 
     }

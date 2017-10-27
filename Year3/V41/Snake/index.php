@@ -1,0 +1,34 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: nic.lundmarkullman
+ * Date: 2017-10-27
+ * Time: 13:02
+ */
+
+
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/addons/p5.dom.js"></script>
+
+    <script src="script/snake.js"></script>
+    <script src="script/game.js"></script>
+    <script src="script/main.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<footer>
+    <p class="author">By Nic Ullman</p>
+</footer>
+</body>
+</html>
