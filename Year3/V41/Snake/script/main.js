@@ -5,7 +5,7 @@ var progressBar;
 
 function centerCanvas() {
     var x = (windowWidth - width) / 2;
-    var y = (windowHeight - height) / 2
+    var y = (windowHeight - height) / 2;
     cnv.position(x, y)
 }
 
@@ -16,7 +16,8 @@ function windowResized() {
 
 
 function setup() {
-    frameRate(20);
+    frameRate(60);
+    
     
     cnv = createCanvas(800, 600);
 
@@ -29,13 +30,13 @@ function setup() {
 
     fill(255);
     stroke(255);    
+    stroke(255);
 
 }
 
 function keyPressed(){
     myGame.handleInput();
     
-
 }
 
 
