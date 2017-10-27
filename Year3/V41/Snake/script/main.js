@@ -26,7 +26,7 @@ function setup() {
     
     myGame = new Game(800, 600);
     myGame.start();
-    myGame.setupProgressBar();
+    //myGame.setupProgressBar();
 
     fill(255);
     stroke(255);
