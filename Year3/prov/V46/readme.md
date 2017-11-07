@@ -18,7 +18,7 @@ Alltså kan god kvalité _**göra skillnad på användarens upplevelse**_.
 #### God praxis
 *Handlar om:*  
 Struktur på sin kod med hjälp av korrekt indentering, kommentarer, bra klass-/idnamn, bra filnamn, etc.  
-Det underlättar arbetet för utvecklaren och även för eventuella kollegor/samarbetspartners.
+Det underlättar arbetet för utvecklaren och även för eventuella kollegor/samarbetspartners.  
 Däremot kommer god praxis _**inte att göra skillnad på användarens upplevelse**_.
 
 
