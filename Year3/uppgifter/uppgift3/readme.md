@@ -8,7 +8,7 @@
    * Färger
    * Former
    * Avstånd
-3. Skissa design
+3. [Skissa design](#design)
     * Skärmstorlekar
       * Mobil
       * PC/stor skärm
@@ -36,5 +36,10 @@
 [Färger, "Färgpsykologi", video](https://www.youtube.com/watch?v=r9gYdD-REI0)  
 [Färger, "Trick för att välja", video](https://www.youtube.com/watch?v=MjulRnUvttM)  
 [Färger, "Paletton", verktyg](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)  
-  
+
+
+## <a name="design">3. Skissa design</a>
 [Layout, "Layout", video](https://www.youtube.com/watch?v=A8pSoqEfayU)
+
+[Repsonsiva sidor, "responsive resources", massa massa länkar](http://bradfrost.github.io/this-is-responsive/resources.html)
+
