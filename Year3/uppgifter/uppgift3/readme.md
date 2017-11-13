@@ -28,3 +28,11 @@
     * (kolla av med mig)
   
 ## <a name="theme">2. Bestäm Tema</a>
+[Gränssnitt på kurswebben](https://twiggy.smutje.se/index.php/Gr%C3%A4nssnittdesign)
+
+[Typografi - "10 regler", video](https://www.youtube.com/watch?v=gWo1ueIayj4)
+[Typografi - "trender", video](https://www.youtube.com/watch?v=NWIruxSx22Q)
+
+[Färger, "Färgpsykologi", video](https://www.youtube.com/watch?v=r9gYdD-REI0)
+[Färger, "Trick för att välja", video](https://www.youtube.com/watch?v=MjulRnUvttM)
+[Färger, "Paletton", verktyg](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
