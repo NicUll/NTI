@@ -36,3 +36,5 @@
 [Färger, "Färgpsykologi", video](https://www.youtube.com/watch?v=r9gYdD-REI0)  
 [Färger, "Trick för att välja", video](https://www.youtube.com/watch?v=MjulRnUvttM)  
 [Färger, "Paletton", verktyg](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)  
+  
+[Layout, "Layout", video](https://www.youtube.com/watch?v=A8pSoqEfayU)
