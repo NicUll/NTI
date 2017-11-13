@@ -37,6 +37,6 @@ Vad ett program består av och vad som händer när vi stegar igenom det.
 
 #### Samt det vi pratar om på lektion
 
-
+[What beautiful HTML looks like](https://css-tricks.com/examples/CleanCode/Beautiful-HTML.png)
 
 
