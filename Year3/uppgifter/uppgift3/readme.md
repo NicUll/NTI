@@ -3,7 +3,7 @@
 ## Övergripande arbetsgång
 
 1. Välj innehåll
-2. Bestäm tema
+2. [Bestäm tema](#theme)
    * Typografi
    * Färger
    * Former
@@ -27,3 +27,4 @@
     * Validera HTML
     * (kolla av med mig)
   
+## <a name="theme">2. Bestäm Tema</a>
