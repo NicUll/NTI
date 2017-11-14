@@ -39,17 +39,18 @@
 [Färger, "Trick för att välja", video](https://www.youtube.com/watch?v=MjulRnUvttM)  
 [Färger, "Paletton", verktyg](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)  
 
-
+***
 ### <a name="design">3. Skissa design</a>
 [Layout, "Layout", video](https://www.youtube.com/watch?v=A8pSoqEfayU)
 
 [Repsonsiva sidor, "responsive resources", massa massa länkar](http://bradfrost.github.io/this-is-responsive/resources.html)
 
+***
 ### <a name="structure">4. Strukturera arbetet</a>
-
 [Exempel på gruppering på kurswebben](https://twiggy.smutje.se/index.php/Ekol%C3%A5dans_webbshop)  
 [Flowchart för val av element](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf) (så har man något att utgå ifrån)  
 
+***
 ### <a name="skeleton">5. Skriv HTML skelett</a>
 
 [HTML5 template](https://gist.github.com/jaxon/3913867)  
@@ -59,6 +60,7 @@
 Bland de här länkarna finns bra mallar som man kan utgå ifrån när man gör sin sida.  
 Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska använda.
 
+***
 ### <a name="check">6. Kontrollera koden</a>
 [W3C Validator](http://html5.validator.nu/)
 
