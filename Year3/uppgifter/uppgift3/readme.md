@@ -1,6 +1,8 @@
 # Responsiv design
 
-## Övergripande arbetsgång
+## Steg 1. HTML
+
+### Övergripande arbetsgång
 
 1. Välj innehåll
 2. [Bestäm tema](#theme)
@@ -14,20 +16,20 @@
       * PC/stor skärm
       * (Tablet)
     * Tydlig meny
-4. Strukturera arbetet
+4. [Strukturera arbetet](#structure)
     * Dela in i byggblock
     * Gruppera element
     * Markera behållare
-5. Skriv HTML skelett
+5. [Skriv HTML skelett](#skeleton)
     * Skriv utan innehållet först
     * Börja utifrån och in (behållare först, detaljerna sen)
     * Fyll i innehållet
-6. Kontrollera
+6. [Kontrollera](#check)
     * Kolla på sidan utan CSS, ser den ok ut?
     * Validera HTML
     * (kolla av med mig)
   
-## <a name="theme">2. Bestäm Tema</a>
+### <a name="theme">2. Bestäm Tema</a>
 [Gränssnitt på kurswebben](https://twiggy.smutje.se/index.php/Gr%C3%A4nssnittdesign)  
 
 [Typografi - "10 regler", video](https://www.youtube.com/watch?v=gWo1ueIayj4)  
@@ -38,8 +40,28 @@
 [Färger, "Paletton", verktyg](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)  
 
 
-## <a name="design">3. Skissa design</a>
+### <a name="design">3. Skissa design</a>
 [Layout, "Layout", video](https://www.youtube.com/watch?v=A8pSoqEfayU)
 
 [Repsonsiva sidor, "responsive resources", massa massa länkar](http://bradfrost.github.io/this-is-responsive/resources.html)
 
+### <a name="structure">4. Strukturera arbetet</a>
+
+[Exempel på gruppering på kurswebben](https://twiggy.smutje.se/index.php/Ekol%C3%A5dans_webbshop)  
+[Flowchart för val av element](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf) (så har man något att utgå ifrån)  
+
+### <a name="skeleton">5. Skriv HTML skelett</a>
+
+[HTML5 template](https://gist.github.com/jaxon/3913867)
+[HTML5 på kurswebben](https://twiggy.smutje.se/index.php/Anv%C3%A4nda_HTML5_semantiska_element#Varf.C3.B6r_semantiska_element.3F)
+[Flowchart för val av element](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
+
+Bland de här länkarna finns bra mallar som man kan utgå ifrån när man gör sin sida.
+Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska använda.
+
+### <a name="check">6. Kontrollera koden</a>
+
+
+## Steg 2. CSS
+
+### Över
