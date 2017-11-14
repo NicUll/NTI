@@ -62,6 +62,8 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 ### <a name="check">6. Kontrollera koden</a>
 [W3C Validator](http://html5.validator.nu/)
 
+***
+
 ## Steg 2. CSS
 
 ### Övergripande arbetsgång
@@ -74,6 +76,7 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
     * Skriv bara med det som *skiljer sig åt*
 3. Experimentera fram en bra breakpoint
 
+***
 ### <a name="mobile">Skriv CSS för mobil</a>
 
 #### Mobil design, extra
@@ -82,21 +85,21 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 
 #### Placering/Layout, lite tips
 
-##### Flexbox
+##### Flexbox - Att föredra när man stället in layouten, smidig och enkel.
 * [CSS-tricks guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Flexbox på kurssidan](https://twiggy.smutje.se/index.php/Styla_horisontell_placering_med_CSS_flexbox) 
 * [Mastering Flexbox - interaktiv sida](http://webdesignerwall.com/tutorials/master-css-flexbox-5-simple-steps)
 
-Att föredra när man stället in layouten, smidig och enkel.
 
 
-##### Float
+
+##### Float - Kan vara användbar för att styra innehållets flöde.
 * [CSS-tricks float](https://css-tricks.com/almanac/properties/f/float/)
 * [Kurssidans](https://twiggy.smutje.se/index.php/Skapa_snyggt_bildgalleri)
 
-Kan vara användbar för att styra innehållets flöde.
 
 
+***
 ### <a name="media">Skriva media queries</a>
 **Glöm inte:** [Viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) - Måste finnas med.  
 Använd som standard ```HTML <meta name="viewport" content="width=device-width, initial-scale=1">```  
