@@ -77,7 +77,7 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 3. Experimentera fram en bra breakpoint
 
 ***
-### <a name="mobile">Skriv CSS för mobil</a>
+### <a name="mobile">1. Skriv CSS för mobil</a>
 
 #### Mobil design, extra
 [Exempel på mobil design](http://www.mobile-patterns.com/)  
@@ -100,7 +100,7 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 
 
 ***
-### <a name="media">Skriva media queries</a>
+### <a name="media">2. Skriva media queries</a>
 **Glöm inte:** [Viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) - Måste finnas med.  
 Använd som standard ```HTML <meta name="viewport" content="width=device-width, initial-scale=1">```  
 
