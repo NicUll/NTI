@@ -67,12 +67,34 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 ### Övergripande arbetsgång
 
 1. [Skriv CSS som vanligt fast för mobil](#mobile)    
-2. Skriv media queries längst ner
-    * Skriv CSS för störres skärmar
+2. [Skriv media queries längst ner](#media)
+    * Skriv CSS för större skärmar
     * Skriv bara med det som *skiljer sig åt*
 3. Experimentera fram en bra breakpoint
 
 ### <a name="mobile">CSS för mobilen</a>
-* [Exempel på mobil design](http://www.mobile-patterns.com/)
-* [Vanliga fallgropar](http://bradfrost.com/blog/post/mobile-web-problems/)
+[Exempel på mobil design](http://www.mobile-patterns.com/)
+[Vanliga fallgropar](http://bradfrost.com/blog/post/mobile-web-problems/)
 
+
+### <a name="media">Skriva media queries</a>
+**Glöm inte:** [Viewport](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag) - Måste finnas med.  
+Använd som standard ```HTML <meta name="viewport" content="width=device-width, initial-scale=1">```  
+
+[Responsiv layout](https://twiggy.smutje.se/index.php/Skapa_en_webbsida_med_responsiv_layout) - Vägledning och tips för media queries och vad man ska tänka på vid design för olika enheter.
+
+Exempel på grundläggande MQ:  
+
+```css
+/*definiera CSS som vanligt här, anpassa för mobil först*/
+
+@media (min-width: 801px){
+  /*Kod för datorskärmar*/
+}
+
+@media (min-width: 601px) and (max-width: 800px){
+  /*Kod för tablets om man har det*/
+}
+
+```
+Anpassa min och max efter vad som funkar för just din sida.
