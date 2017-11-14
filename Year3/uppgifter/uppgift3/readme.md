@@ -52,16 +52,27 @@
 
 ### <a name="skeleton">5. Skriv HTML skelett</a>
 
-[HTML5 template](https://gist.github.com/jaxon/3913867)
-[HTML5 på kurswebben](https://twiggy.smutje.se/index.php/Anv%C3%A4nda_HTML5_semantiska_element#Varf.C3.B6r_semantiska_element.3F)
-[Flowchart för val av element](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)
+[HTML5 template](https://gist.github.com/jaxon/3913867)  
+[HTML5 på kurswebben](https://twiggy.smutje.se/index.php/Anv%C3%A4nda_HTML5_semantiska_element#Varf.C3.B6r_semantiska_element.3F)  
+[Flowchart för val av element](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)  
 
-Bland de här länkarna finns bra mallar som man kan utgå ifrån när man gör sin sida.
+Bland de här länkarna finns bra mallar som man kan utgå ifrån när man gör sin sida.  
 Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska använda.
 
 ### <a name="check">6. Kontrollera koden</a>
-
+[W3C Validator](http://html5.validator.nu/)
 
 ## Steg 2. CSS
 
-### Över
+### Övergripande arbetsgång
+
+1. [Skriv CSS som vanligt fast för mobil](#mobile)    
+2. Skriv media queries längst ner
+    * Skriv CSS för störres skärmar
+    * Skriv bara med det som *skiljer sig åt*
+3. Experimentera fram en bra breakpoint
+
+### <a name="mobile">CSS för mobilen</a>
+* [Exempel på mobil design](http://www.mobile-patterns.com/)
+* [Vanliga fallgropar](http://bradfrost.com/blog/post/mobile-web-problems/)
+
