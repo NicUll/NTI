@@ -66,15 +66,35 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 
 ### Övergripande arbetsgång
 
-1. [Skriv CSS som vanligt fast för mobil](#mobile)    
+1. [Skriv CSS som vanligt fast för mobil](#mobile)   
+    * Bestäm tydligt placering av saker etc.
+    * Använd precis samma slags CSS som vanligt.
 2. [Skriv media queries längst ner](#media)
     * Skriv CSS för större skärmar
     * Skriv bara med det som *skiljer sig åt*
 3. Experimentera fram en bra breakpoint
 
-### <a name="mobile">CSS för mobilen</a>
-[Exempel på mobil design](http://www.mobile-patterns.com/)
-[Vanliga fallgropar](http://bradfrost.com/blog/post/mobile-web-problems/)
+### <a name="mobile">Skriv CSS för mobil</a>
+
+#### Mobil design, extra
+[Exempel på mobil design](http://www.mobile-patterns.com/)  
+[Vanliga fallgropar](http://bradfrost.com/blog/post/mobile-web-problems/)  
+
+#### Placering/Layout, lite tips
+
+##### Flexbox
+* [CSS-tricks guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Flexbox på kurssidan](https://twiggy.smutje.se/index.php/Styla_horisontell_placering_med_CSS_flexbox) 
+* [Mastering Flexbox - interaktiv sida](http://webdesignerwall.com/tutorials/master-css-flexbox-5-simple-steps)
+
+Att föredra när man stället in layouten, smidig och enkel.
+
+
+##### Float
+* [CSS-tricks float](https://css-tricks.com/almanac/properties/f/float/)
+* [Kurssidans](https://twiggy.smutje.se/index.php/Skapa_snyggt_bildgalleri)
+
+Kan vara användbar för att styra innehållets flöde.
 
 
 ### <a name="media">Skriva media queries</a>
