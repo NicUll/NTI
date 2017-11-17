@@ -16,3 +16,7 @@
 
 ## <a name="grading-tips">Tips för betyg</a>
 
+|Betygspunkt     |Kommentar        |Länkar       |
+|----------------|-----------------|-------------|
+|Charset         |Huvudsaken är att rätt väljs, lämpligen utf-8|[W3Schools](https://www.w3schools.com/html/html_charset.asp)|
+
