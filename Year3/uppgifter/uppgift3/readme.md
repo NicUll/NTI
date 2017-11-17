@@ -1,10 +1,10 @@
 # Uppgift 3 - Responsiv design
 
-[Uppgiftsbeskrivning](#task)
-[Arbetsgång](#method)
-[Tips](#method-tips)
-[Betygsättning](#grading)
-[Tips för betyg](#grading-tips)
+[Uppgiftsbeskrivning](#task)  
+[Arbetsgång](#method)  
+[Tips](#method-tips)  
+[Betygsättning](#grading)  
+[Tips för betyg](#grading-tips)  
 
 ## <a name="task">Uppgiftsbeskrivning</a>
 
