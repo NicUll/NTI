@@ -20,6 +20,13 @@ footer{
 
 }
 
+.score{
+    width: 50px;
+    height: 20px;
+    background: red;
+}
+
 .author{
     font-family: monospace;
 }
+
