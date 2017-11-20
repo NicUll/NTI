@@ -66,8 +66,8 @@ Vad är skillnaden? Blir det något skillnad rent praktiskt?
 Skriv en funktion som tar in ett tal, och returnerar talet + 10.
 
 ```javascript
-<-numPlusTen(30); 
-->40
+>numPlusTen(30); 
+<-40
 ```
 
 ### Övning 6
@@ -75,8 +75,8 @@ Skriv en funktion som tar in ett tal, och returnerar talet + 10.
 Skriv en funktion som tar in två tal, och returnerar summan av dem.
 
 ```javascript
-<-multiply(5,9);
-->45
+>multiply(5,9);
+<-45
 ```
 
 
@@ -102,13 +102,53 @@ enAnnanLista = ["en","lista","med","olika","värden",1,8]
 Du kommer åt listvärden med:
 ```javascript
 enAnnanLista[0];
-->"en"
+<-"en"
 enAnnanLista[4];
-->"värden"
+<-"värden"
 ```
 Tänk på att listor börjar från 0.
 
 
+### Övning 8
+
+Mera listor! 
+* Skapa en lista med minst två objekt/element i sig.
+* Fyll på listan med push, stoppa in minst två värden till  
+
+Du ska nu ta reda på hur många element det är i listan. Skriv 
+```javascript
+listansNamn.length;
+```
+För att få veta hur lång listan är.
+
+
+### Övning 9
+
+Skriv en funktion där du skickar in en lista och den returnerar längden på listan.
+```javascript
+>var enLista = ["a","banan","äpple","etc"]
+>listLength(enLista);
+<-4
+```
+
+### Övning 10
+
+Text går att sätta ihop med + (plus) tecknet.  
+Pröva exempelvis:
+```javascript
+console.log("Hej " + "där!");
+```
+Det går också lika bra att skriva med en variabel istället för ren text:
+```
+var ettNamne = "Nic";
+console.log("Hej " + ettNamn);
+<-Hej Nic
+```
+
+Experimentera med att blanda variabler och ren text.   
+Går det att spara ihopsatta textsträngar i en ny variabel?
+
+### Uppgift 
 
 ## Guider, info, tips
 
