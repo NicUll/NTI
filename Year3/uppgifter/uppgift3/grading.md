@@ -25,6 +25,6 @@ Utöver kraven på hemsidan så ska du också:
 [Mall för projektplan](https://docs.google.com/document/d/1EiGoW79idzDAf2en_7ai8d5I3Tc44XyoIvbYNjYyGYA/edit)
 [Mall för slutdokumentation](https://docs.google.com/document/d/1qfuq050ps7Jzsz3yauU6_zd-FYoZbWlJJ_QjXcJOjKY/edit)
 
-[Checklista webbkodning](https://docs.google.com/forms/d/e/1FAIpQLSdelCfvgIhgti7ixSxFyyWOsOCTPsvaOjewxQcjtkIXadH16g/viewform?c=0&w=1) Fyll dock inte i och skicka denna, då jag inte har tillgång till formuläret och inte kan ta emot svaren.
+[Checklista webbkodning](https://docs.google.com/forms/d/e/1FAIpQLSdelCfvgIhgti7ixSxFyyWOsOCTPsvaOjewxQcjtkIXadH16g/viewform?c=0&w=1) Fyll dock **inte** i och skicka denna, då jag inte har tillgång till formuläret och inte kan ta emot svaren.
 
 
