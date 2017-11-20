@@ -33,14 +33,25 @@ Vad är tillåtna variabelnamn? Ta reda på det.
 
 Skriv en funktion som skriver ut ditt namn åt dig. Kom ihåg att en funktion definieras med:
 ```javascript
-function funktionsNamn([indata]){
+function funktionsNamn(){
   //kod som ska köras
 }
 ```
 Kalla på funktionen, det görs ju med:
 ```javascript
-funktionsNamn([data-till-funktionen]);
+funktionsNamn();
 ```
+
+### Övning 3.5
+
+Skriv en funktion som tar in ditt namn och skriver ut det åt dig:
+```javascript
+function funktionsNamn(inData){
+  //kod som ska göras, gör saker med inData
+}
+//Kalla på den med
+
+funktionsNamn("Nic");
 
 ### Övning 4
 
@@ -148,7 +159,26 @@ console.log("Hej " + ettNamn);
 Experimentera med att blanda variabler och ren text.   
 Går det att spara ihopsatta textsträngar i en ny variabel?
 
-### Uppgift 
+### Övning 11
+
+Skriv en for-loop.
+En foor loop följer följande "regler":
+for(vad-görs-först;kör-medan-detta-är sant;gör-detta-efter-
+
+### Uppgift 1
+
+Skapa en liten anteckningsbok.
+* Gör en tom lista.
+* Skapa en funktion som tar emot en lista, och en text, och lägger till texten i listan. Kalla den "addNote".
+
+Så om du har listan  
+myNotes = [];  
+Så ska man kunna köra
+```javascript
+addNote(myNotes, "Köpa mjölk!");
+```
+Och ett listelement med texten "Köpa mjölk!" ska läggas till.
+
 
 ## Guider, info, tips
 
