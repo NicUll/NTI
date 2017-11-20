@@ -9,6 +9,7 @@ Utöver kraven på hemsidan så ska du också:
   * Bilder
   * Kodsnuttar om det behövs
   * Länkar till eventuella bibliotek (om inte välkända) och andra resurser du tänkt använda
+  * Lämna in till mig innan sidan är klar
 * Ha med en slutdokumentation på arbetet som berättar om din arbetsgång:
   * Använd text och/eller bilder
   * Berätta tydligt vad du gjort själv/inte gjort själv
@@ -19,6 +20,11 @@ Utöver kraven på hemsidan så ska du också:
 
 ## Tillåtna hjälpmedel och arbetsmetoder
 
-[Utvecklingsprocessen för projekt i webbutveckling](https://twiggy.smutje.se/index.php/Utvecklingssprocessen_f%C3%B6r_projekt_i_webbutveckling)
+[Utvecklingsprocessen för projekt i webbutveckling](https://twiggy.smutje.se/index.php/Utvecklingssprocessen_f%C3%B6r_projekt_i_webbutveckling)  
+
+[Mall för projektplan](https://docs.google.com/document/d/1EiGoW79idzDAf2en_7ai8d5I3Tc44XyoIvbYNjYyGYA/edit)
+[Mall för slutdokumentation](https://docs.google.com/document/d/1qfuq050ps7Jzsz3yauU6_zd-FYoZbWlJJ_QjXcJOjKY/edit)
+
+[Checklista webbkodning](https://docs.google.com/forms/d/e/1FAIpQLSdelCfvgIhgti7ixSxFyyWOsOCTPsvaOjewxQcjtkIXadH16g/viewform?c=0&w=1) Fyll dock inte i och skicka denna, då jag inte har tillgång till formuläret och inte kan ta emot svaren.
 
 
