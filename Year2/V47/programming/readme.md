@@ -42,7 +42,21 @@ Kalla på funktionen, det görs ju med:
 funktionsNamn([data-till-funktionen]);
 ```
 
+### Övning 4
 
+Den här övning är nästan exakt som övning 3, förutom att nu ska inte funktionen ta in och sedan skriva ut namnet, utan returnera namnet.
+Definiera  funktionen som innan, men den ska inte ta något invärde. Däremot ska den returnera ditt namn.
+Kalla på funktionen på två sätt:
+
+```javascript
+/* Sätt ett */
+var mittNamn = minNamnFunktion();
+console.log(mittNamn);
+
+/* Sätt två */
+
+console.log(minNamnFunktion());
+```
 
 ## Guider, info, tips
 
