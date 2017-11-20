@@ -14,7 +14,7 @@ För att bläddra bland tidigare skrivna kommandon och slippa skriva om dem, anv
 
 ### Övning 1
 
-Få konsolen att skriva ut ditt namne med hjälp av: 
+Få konsolen att skriva ut ditt namn med hjälp av: 
 ```javascript 
 console.log();
 ```
@@ -57,6 +57,58 @@ console.log(mittNamn);
 
 console.log(minNamnFunktion());
 ```
+
+Vad är skillnaden? Blir det något skillnad rent praktiskt?
+
+
+### Övning 5
+
+Skriv en funktion som tar in ett tal, och returnerar talet + 10.
+
+```javascript
+<-numPlusTen(30); 
+->40
+```
+
+### Övning 6
+
+Skriv en funktion som tar in två tal, och returnerar summan av dem.
+
+```javascript
+<-multiply(5,9);
+->45
+```
+
+
+### Övning 7
+
+Nu ska du får göra en lista, en lista skapas med hakparenteser [].
+Initiera en lista med 
+```javascript
+var minLista = [];
+```
+Du har nu gjort en tom lista. Pröva att lägga till värden med:
+```javascript
+minLista.push("apa");
+```
+Listan kommer nu se ut såhär:
+```minLista = ["apa"]```
+
+Det går lika bra att från början fylla i värden också:
+```javascript
+enAnnanLista = ["en","lista","med","olika","värden",1,8]
+```
+
+Du kommer åt listvärden med:
+```javascript
+enAnnanLista[0];
+->"en"
+enAnnanLista[4];
+->"värden"
+```
+Tänk på att listor börjar från 0.
+
+
 
 ## Guider, info, tips
 
