@@ -10,8 +10,9 @@
 
 ## <a name="method">Arbetsgång</a>
 
-#### * [Arbetsgången allmänt](method.md)  
+####  [->Arbetsgången utförligt<-](method.md)  
 
+#### Arbetsgången allmänt
 * Skissa - Layout, mobil, dator, meny
 * Planera - Vilka tekniker som ska användas, var går tiden åt
 * Strukturera - Hur du ska dela upp allt på sidan, fundera över klasser, behållare etc.
