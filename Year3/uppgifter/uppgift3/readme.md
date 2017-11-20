@@ -13,6 +13,7 @@
 ## <a name="method-tips">Tips</a>
 
 ## <a name="grading">Betygsättning</a>
+[Betygsättning och krav på hemsidan](grading.md)
 
 ## <a name="grading-tips">Tips för betyg</a>
 
