@@ -1,6 +1,10 @@
 # Responsiv design
+* [HTML](#html)
+* [CSS](#css)
+* [Skript](#script)
+* [Repsonsiv](#responsive)
 
-## Steg 1. HTML
+## <a name="html"> Steg 1. HTML</a>
 
 ### Övergripande arbetsgång
 
@@ -66,7 +70,7 @@ Den sista, *flowcharten*, kan man kika på om man inte vet vilka element man ska
 
 ***
 
-## Steg 2. CSS
+## <a name="css"> Steg 2. CSS</a>
 
 ### Övergripande arbetsgång
 
@@ -123,3 +127,13 @@ Exempel på grundläggande MQ:
 
 ```
 Anpassa min och max efter vad som funkar för just din sida.
+
+
+## <a name="script"> Skript </a>
+
+* https://responsivedesign.is/develop/javascript/conditionally-load-javascript-based-on-media-query/
+
+
+## <a name="responsive"> Responsiv - allmäna tips </a>
+
+https://www.toptal.com/android/developing-mobile-web-apps-when-why-and-how
