@@ -230,7 +230,7 @@ Går det att spara ihopsatta textsträngar i en ny variabel?
 
 Skriv en for-loop.
 En foor loop följer följande "regler":
-for(vad-görs-först;kör-medan-detta-är sant;gör-detta-efter-
+for(vad-görs-först;kör-medan-detta-är sant;gör-detta-efter){
 ***
 
 ## Teorisammanfattning 2
