@@ -2,26 +2,17 @@
 
 ## Övningar
 
-* [Övning 1](#Övning-1)
-* [Övning 2](#Övning-2)
-* [Övning 3](#Övning-3)
-* [Övning 3.5](#Övning-3.5)
-* [Övning 4](#Övning-4)
-* [Övning 5](#Övning-5)
-* [Övning 6](#Övning-6)
-* [Övning 7](#Övning-7)
-* [Övning 8](#Övning-8)
-* [Övning 9](#Övning-9)
-* [Övning 10](#Övning-10)
-* [Övning 11](#Övning-11)
-* [Övning 12](#Övning-12)
-* [Övning 13](#Övning-13)
-* [Övning 14](#Övning-14)
-* [Övning 15](#Övning-15)
-* [Övning 16](#Övning-16)
-* [Övning 17](#Övning-17)
-* [Övning 18](#Övning-18)
-* [Övning 19](#Övning-19)
+[Övning 1](#Övning-1), [Övning 2](#Övning-2), [Övning 3](#Övning-3), [Övning 3.5](#Övning-3.5),  
+[Övning 4](#Övning-4), [Övning 5](#Övning-5), [Övning 6](#Övning-6)   
+  
+[Teorisammanfattning 1](Teorisammanfattning-1)  
+  
+[Övning 7](#Övning-7), [Övning 8](#Övning-8), [Övning 9](#Övning-9), [Övning 10](#Övning-10)   
+[Övning 11](#Övning-11)  
+  
+[Teorisammanfattning 2](Terosammanfattning-2)  
+  
+[Uppgift 1](Uppgift-1)
 
 
 ### Kom igång
