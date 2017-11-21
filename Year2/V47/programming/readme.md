@@ -2,6 +2,8 @@
 
 ## Övningar
 
+
+
 ### Kom igång
 * Öppna en ny flik i Chrome
 * Skriv "about:blank" utan citattecken som adress i adressfältet
@@ -100,7 +102,7 @@ Skriv en funktion som tar in två tal, och returnerar summan av dem.
 
 ### Övning 7
 
-Nu ska du får göra en lista, en lista skapas med hakparenteser [].
+Nu ska du få göra en lista, en lista skapas med hakparenteser; \[ och ].
 Initiera en lista med 
 ```javascript
 var minLista = [];
@@ -139,6 +141,10 @@ listansNamn.length;
 ```
 För att få veta hur lång listan är.
 ***
+
+## Teorisammanfattning 1
+
+
 
 ### Övning 9
 
