@@ -230,7 +230,30 @@ Går det att spara ihopsatta textsträngar i en ny variabel?
 
 Skriv en for-loop.
 En foor loop följer följande "regler":
-for(vad-görs-först;kör-medan-detta-är sant;gör-detta-efter){
+for(vad-görs-först; kör-medan-detta-är-sant; gör-detta-efter-varje-loop){ Kod som ska köras }
+
+Exempel:
+```javascript
+for(var i=0; i<9; i++){
+  console.log(i);
+}
+//Kommer skriva ut siffrorna 0-8 en efter en.
+/* 
+vad-görs-först: var i=0; (skapa variabel i och sätt till noll)  
+kör-medan-detta-är-sant: i<9; (kör så länge i är mindre än nio)  
+gör-detta-efter-varje-loop: i++; (öka i med ett efter varje loop)  
+
+var enLista = [12, "blä", "smet"];
+for(var i=0; i<enLista.length; i++){
+  console.log(enLista[i]);
+}
+
+/* Skriver ut:
+12
+blä
+smet
+*/
+```
 ***
 
 ## Teorisammanfattning 2
