@@ -242,6 +242,7 @@ for(var i=0; i<9; i++){
 vad-görs-först: var i=0; (skapa variabel i och sätt till noll)  
 kör-medan-detta-är-sant: i<9; (kör så länge i är mindre än nio)  
 gör-detta-efter-varje-loop: i++; (öka i med ett efter varje loop)  
+*/
 
 var enLista = [12, "blä", "smet"];
 for(var i=0; i<enLista.length; i++){
