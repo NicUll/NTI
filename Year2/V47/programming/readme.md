@@ -10,7 +10,7 @@
 [Övning 7](#Övning-7), [Övning 8](#Övning-8), [Övning 9](#Övning-9), [Övning 10](#Övning-10)   
 [Övning 11](#Övning-11)  
   
-[Teorisammanfattning 2](teorisammanfattning-2)  
+[Teorisammanfattning 2](#teorisammanfattning-2)  
   
 [Uppgift 1](Uppgift-1)
 
