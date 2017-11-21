@@ -8,6 +8,33 @@
 
 ## <a name="task">Uppgiftsbeskrivning</a>
 
+Uppgiften är att skapa en hemsida med responsiv layout. Huvudsakligen tillhör uppgiften kurserna Webbutveckling och Gränssnittdesign.  
+Syftet med uppgiften är dels att:  
+*Visa upp kunskaper inom*  
+* Projekt
+* Utveckling från idé till slutprodukt
+* Skissning
+* HTML
+* CSS
+* Tillgänglighet
+* Kvalité
+* Praxis  
+  
+*Och dels att ta till sig ytterligare/nya kunskaper inom*
+* Tillgänglighet, främst responsiv layout
+* Gränssnitt
+* Arbetsgången för att utveckla en hemsida
+
+Nedanför finns de länkar som behövs för att slutföra uppgiften.  
+Det är främst lektionstiden som används för att slutföra produkten,  
+men det kommer krävas lite arbete hemifrån för att bli klar.
+
+Ni får ställa så mycket frågor ni vill **men tänk på** att  
+för ett högre betyg så kan man inte får riktigt lika mycket handledning,  
+utan förväntas jobba främst själv.
+
+*****
+
 ## <a name="method">Arbetsgång</a>
 
 ####  [->Arbetsgången utförligt<-](method.md)  
