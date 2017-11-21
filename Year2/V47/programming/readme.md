@@ -113,6 +113,48 @@ Skriv en funktion som tar in två tal, och returnerar summan av dem.
 
 ## Teorisammanfattning 1
 
+Skriv ut saker till konsolen med ```console.log(text här);```  
+Du kan skriva ut både ren text och variabler.
+
+En variabel skapas med ```var minVariabel = ettVärde;```  
+Exempel på olika variabler:  
+```javascript
+var liteText = "Hallå där"; //String
+var ettTal = 46; //Number
+var enLista = ["apa",49,"egon"]; //Array
+var enBoolean = true; //En boolean
+```
+
+En funktion skapas med ```function funktionsNamn([data-in]){saker att göra}```  
+Man måste inte ha med "in-data", det kan vara en funktion utan det.  
+Till exempel såhär kan funktioner se ut: 
+```javascript
+function sagHej(){
+  console.log("Hej");
+}
+
+function plussa(tal1, tal2){
+  var summa = tal1 + tal2;
+  console.log(summa);
+}
+
+function raknaSkatt(lon){
+  var skatt = lon*0.3;
+  return skatt;
+}
+```
+Om vi skulle köra funktionerna skulle vi få följande output:
+```javascript
+>sagHej();
+Hej
+
+>plussa(5,8);
+13
+
+>console.log(raknaSkatt(20000));
+6000
+```
+
 ### Övning 7
 
 Nu ska du få göra en lista, en lista skapas med hakparenteser; \[ och ].
