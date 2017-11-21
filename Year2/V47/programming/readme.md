@@ -5,12 +5,12 @@
 [Övning 1](#Övning-1), [Övning 2](#Övning-2), [Övning 3](#Övning-3), [Övning 3.5](#Övning-35),  
 [Övning 4](#Övning-4), [Övning 5](#Övning-5), [Övning 6](#Övning-6)   
   
-[Teorisammanfattning 1](#Teorisammanfattning-1)  
+[Teorisammanfattning 1](#teorisammanfattning-1)  
   
 [Övning 7](#Övning-7), [Övning 8](#Övning-8), [Övning 9](#Övning-9), [Övning 10](#Övning-10)   
 [Övning 11](#Övning-11)  
   
-[Teorisammanfattning 2](Terosammanfattning-2)  
+[Teorisammanfattning 2](teorisammanfattning-2)  
   
 [Uppgift 1](Uppgift-1)
 
