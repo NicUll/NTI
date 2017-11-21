@@ -11,6 +11,7 @@
 För att tömma konsolen tryck på ```CTRL-L```.  
 För att göra radbryt utan att köra programmet, tryck på ```SHIFT-ENTER```.  
 För att bläddra bland tidigare skrivna kommandon och slippa skriva om dem, använd ```PIL UPP```  
+***
 
 ### Övning 1
 
@@ -20,6 +21,7 @@ console.log();
 ```
 
 log() är ett exempel på en funktion/metod. Den kör på objektet "console".
+***
 
 ### Övning 2
 
@@ -28,6 +30,7 @@ Spara nu ditt namn i en variabel istället och skriv ut ditt namn med hjälp av:
 console.log(ditt-variabel-namn);
 ```
 Vad är tillåtna variabelnamn? Ta reda på det.
+***
 
 ### Övning 3
 
@@ -41,6 +44,7 @@ Kalla på funktionen, det görs ju med:
 ```javascript
 funktionsNamn();
 ```
+***
 
 ### Övning 3.5
 
@@ -52,6 +56,8 @@ function funktionsNamn(inData){
 //Kalla på den med
 
 funktionsNamn("Nic");
+```
+***
 
 ### Övning 4
 
@@ -70,7 +76,7 @@ console.log(minNamnFunktion());
 ```
 
 Vad är skillnaden? Blir det något skillnad rent praktiskt?
-
+***
 
 ### Övning 5
 
@@ -80,6 +86,7 @@ Skriv en funktion som tar in ett tal, och returnerar talet + 10.
 >numPlusTen(30); 
 <-40
 ```
+***
 
 ### Övning 6
 
@@ -89,7 +96,7 @@ Skriv en funktion som tar in två tal, och returnerar summan av dem.
 >multiply(5,9);
 <-45
 ```
-
+***
 
 ### Övning 7
 
@@ -118,7 +125,7 @@ enAnnanLista[4];
 <-"värden"
 ```
 Tänk på att listor börjar från 0.
-
+***
 
 ### Övning 8
 
@@ -131,7 +138,7 @@ Du ska nu ta reda på hur många element det är i listan. Skriv
 listansNamn.length;
 ```
 För att få veta hur lång listan är.
-
+***
 
 ### Övning 9
 
@@ -141,6 +148,7 @@ Skriv en funktion där du skickar in en lista och den returnerar längden på li
 >listLength(enLista);
 <-4
 ```
+***
 
 ### Övning 10
 
@@ -158,12 +166,15 @@ console.log("Hej " + ettNamn);
 
 Experimentera med att blanda variabler och ren text.   
 Går det att spara ihopsatta textsträngar i en ny variabel?
+***
+
 
 ### Övning 11
 
 Skriv en for-loop.
 En foor loop följer följande "regler":
 for(vad-görs-först;kör-medan-detta-är sant;gör-detta-efter-
+***
 
 ### Uppgift 1
 
@@ -178,7 +189,7 @@ Så ska man kunna köra
 addNote(myNotes, "Köpa mjölk!");
 ```
 Och ett listelement med texten "Köpa mjölk!" ska läggas till.
-
+***
 
 ## Guider, info, tips
 
