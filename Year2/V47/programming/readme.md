@@ -5,7 +5,7 @@
 [Övning 1](#Övning-1), [Övning 2](#Övning-2), [Övning 3](#Övning-3), [Övning 3.5](#Övning-35),  
 [Övning 4](#Övning-4), [Övning 5](#Övning-5), [Övning 6](#Övning-6)   
   
-[Teorisammanfattning 1](Teorisammanfattning-1)  
+[Teorisammanfattning 1](#Teorisammanfattning-1)  
   
 [Övning 7](#Övning-7), [Övning 8](#Övning-8), [Övning 9](#Övning-9), [Övning 10](#Övning-10)   
 [Övning 11](#Övning-11)  
@@ -111,6 +111,8 @@ Skriv en funktion som tar in två tal, och returnerar summan av dem.
 ```
 ***
 
+## Teorisammanfattning 1
+
 ### Övning 7
 
 Nu ska du få göra en lista, en lista skapas med hakparenteser; \[ och ].
@@ -153,10 +155,6 @@ listansNamn.length;
 För att få veta hur lång listan är.
 ***
 
-## Teorisammanfattning 1
-
-
-
 ### Övning 9
 
 Skriv en funktion där du skickar in en lista och den returnerar längden på listan.
@@ -192,6 +190,9 @@ Skriv en for-loop.
 En foor loop följer följande "regler":
 for(vad-görs-först;kör-medan-detta-är sant;gör-detta-efter-
 ***
+
+## Teorisammanfattning 2
+
 
 ### Uppgift 1
 
