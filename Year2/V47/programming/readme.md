@@ -2,7 +2,7 @@
 
 ## Övningar
 
-[Övning 1](#Övning-1), [Övning 2](#Övning-2), [Övning 3](#Övning-3), [Övning 3.5](#Övning-3.5),  
+[Övning 1](#Övning-1), [Övning 2](#Övning-2), [Övning 3](#Övning-3), [Övning 3.5](#Övning-35),  
 [Övning 4](#Övning-4), [Övning 5](#Övning-5), [Övning 6](#Övning-6)   
   
 [Teorisammanfattning 1](Teorisammanfattning-1)  
