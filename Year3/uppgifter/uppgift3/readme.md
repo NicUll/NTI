@@ -1,5 +1,11 @@
 # Uppgift 3 - Responsiv design
 
+## Om responsiv design
+Responsiv design handlar om att utveckla hemsidan på ett sådant sätt att den är tillgänglig för alla typer av enheter.  
+Lite länkar om ämnet (ska fyllas på):
+* [Responsive Design på W3School](https://www.w3schools.com/html/html_responsive.asp)
+* [Developing mobile apps](https://www.toptal.com/android/developing-mobile-web-apps-when-why-and-how)  
+
 [Uppgiftsbeskrivning](#task)  
 [Arbetsgång](#method)  
 [Tips](#method-tips)  
