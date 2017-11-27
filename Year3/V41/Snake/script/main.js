@@ -37,14 +37,14 @@ function setup() {
     //myGame.setupProgressBar();
 
     fill(255);
-    stroke(255);    
     stroke(255);
+    textAlign(CENTER, CENTER);
+    
 
 }
 
 function keyPressed(){
     myGame.handleInput();
-    
 }
 
 

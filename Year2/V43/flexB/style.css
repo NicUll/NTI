@@ -34,6 +34,7 @@ header h1{
     
     /*Kod här*/
     display: flex;
+    justify-content: space-around;
 
 }
 
