@@ -70,7 +70,6 @@ function Game(gWidth, gHeight) {
 
             var yScale = 40/LEVEL_DIV;
             var progress = this.score%LEVEL_DIV;
-            console.log(progress);
             for(var i=0;i<progress;i++){
                 rect(0, yScale*i, 5, 5);
             }
@@ -147,7 +146,7 @@ function Game(gWidth, gHeight) {
             return;
         }
 
-        this.timeToUpdate = 15 - this.level > 0 ? 15 - this.level : 0;
+        this.timeToUpdate = 13 - this.level > 0 ? 13 - this.level : 0;
 
         if (this.nextDirection.length > 2) {
             console.log(this.nextDirection);

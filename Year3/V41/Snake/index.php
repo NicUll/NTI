@@ -6,7 +6,26 @@
  * Time: 13:02
  */
 
+include_once "config.php";
+include_once "player.php";
 
+$playerList = array();
+
+try {
+    $DBConn = new PDO("mysql:host=$servername;dbname=games", $username, $password);
+    $DBConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $stmt = $DBConn->query("SELECT * FROM snake ORDER BY score DESC LIMIT 3");
+    foreach($stmt as $row){
+        $tempPlayer = new Player($row['name'],$row['score']);
+        array_push($playerList, $tempPlayer);
+    }
+
+
+
+
+} catch (PDOException $e) {
+    echo "Connection failure: " . $e->getMessage();
+}
 
 ?>
 
@@ -26,6 +45,15 @@
 
 </head>
 <body>
+
+<div id="highscore">
+    <?php
+    foreach($playerList as $player){
+
+    }
+    ?>
+
+</div>
 
 <footer>
     <p class="author">By Nic Ullman</p>

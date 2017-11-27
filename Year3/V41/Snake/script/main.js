@@ -9,6 +9,13 @@ function centerCanvas() {
     cnv.position(x, y)
 }
 
+function placeHighScore(){
+    var highScore = select('#highscore');
+
+    highScore.style("position", cnv.position().x, cnv.position().y + cnv.height);
+    console.log(cnv.position().x);
+}
+
 function windowResized() {
     centerCanvas();
 }
@@ -22,6 +29,7 @@ function setup() {
     cnv = createCanvas(800, 600);
 
     centerCanvas();
+    placeHighScore();
 
     
     myGame = new Game(800, 600);

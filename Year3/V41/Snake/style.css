@@ -20,6 +20,13 @@ footer{
 
 }
 
+#highscore{
+    position: fixed;
+    width:10px;
+    height:10px;
+    background: red;
+}
+
 .author{
     font-family: monospace;
 }
