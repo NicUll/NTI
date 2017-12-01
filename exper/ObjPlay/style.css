@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -9,6 +12,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+
 
 
 
@@ -28,6 +32,33 @@ header{
     padding: 30px;
 }
 
-.codebox article{
-    margin-bottom: 30px;
+#display{
+    height: 300px;
+    border: 1px solid black;
 }
+
+form{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+}
+
+#add{
+    width:20px;
+    height:20px;
+    padding:0;
+    background-color: limegreen;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+    
+    border: 0;
+    border-radius: 50%;
+    
+}
+
+#add span{
+    position:absolute;
+    transform:translate(-50%,-50%);
+}
+
