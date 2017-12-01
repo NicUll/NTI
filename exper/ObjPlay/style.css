@@ -33,6 +33,9 @@ header{
 }
 
 #display{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
     height: 300px;
     border: 1px solid black;
 }
