@@ -1,0 +1,33 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header, main{
+    margin: 0 10%;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.codebox{
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black;
+    padding: 30px;
+}
+
+.codebox article{
+    margin-bottom: 30px;
+}
