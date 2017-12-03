@@ -54,7 +54,6 @@ utan förväntas jobba främst själv.
 * Testa - Testa testa testa. Kolla att allt ser ok ut på olika skärmstorlekar. Kolla att navigering funkar. Gör automatiska tester online.
 * Skripta - Skriv skript om du tänkt ha med det. Skripten ska göra det HTML och CSS inte kan. Undvik att göra saker som *kräver* skripten.
 
-## <a name="method-tips">Tips för arbetsgång</a>
 
 ## <a name="grading">Betygsättning</a>
 [Betygsättning och krav på hemsidan](grading.md)
