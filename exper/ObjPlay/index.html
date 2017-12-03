@@ -15,23 +15,31 @@
 
     <main>
         <section class="codebox">
-            
+
             <div id="display">
             </div>
-            
+
             <div id="controller">
                 <form>
-                    Kategori:
-                    <input type="text" name="category">
-                    Kr:
-                    <input type="text" name="money">
-                    Färg:
-                    <select>
-                    </select>
+                    <fieldset>
+                        <label for="category">Kategori:</label>
+                        <input type="text" name="category" id="category">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="money">Kr:</label>
+                        <input type="text" name="money" id="money">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="color">Färg:</label>
+                        <select name="color" id="color" S>
+                        </select>
+                    </fieldset>
                     <button id="add" type="button"><span>+</span></button>
                 </form>
             </div>
-            
+
         </section>
     </main>
     <script src="script/main.js"></script>
