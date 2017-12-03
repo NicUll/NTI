@@ -10,7 +10,6 @@ Lite länkar om ämnet (ska fyllas på):
 [Arbetsgång](#method)  
 [Tips](#method-tips)  
 [Betygsättning](#grading)  
-[Tips för betyg](#grading-tips)  
 
 ## <a name="task">Uppgiftsbeskrivning</a>
 
@@ -60,9 +59,5 @@ utan förväntas jobba främst själv.
 ## <a name="grading">Betygsättning</a>
 [Betygsättning och krav på hemsidan](grading.md)
 
-## <a name="grading-tips">Tips för betyg</a>
 
-|Betygspunkt     |Kommentar        |Länkar       |
-|----------------|-----------------|-------------|
-|Charset         |Huvudsaken är att rätt väljs, lämpligen utf-8|[W3Schools](https://www.w3schools.com/html/html_charset.asp)|
 
