@@ -35,7 +35,7 @@ Det är främst lektionstiden som används för att slutföra produkten,
 men det kommer krävas lite arbete hemifrån för att bli klar.
 
 Ni får ställa så mycket frågor ni vill **men tänk på** att  
-för ett högre betyg så kan man inte får riktigt lika mycket handledning,  
+för ett högre betyg så kan man inte få riktigt lika mycket handledning,  
 utan förväntas jobba främst själv.
 
 *****
