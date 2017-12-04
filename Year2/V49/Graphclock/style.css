@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, main{
+    height:100%;
+}
+
+main{
+    width: 400px;
+    margin:auto;
+}
+
+#clock{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin: 33% auto;
+    background: rgba(20,20,20,0.2);
+    border-radius: 100%;
+}
+
+#second-hand, #minute-hand, #hour-hand{
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);  
+}
+
+#second-hand{
+    width:2px;
+}
+
+#second-hand{
+    width:5px;
+}
+
+#hour-hand{
+    width:7px;
+    transform: translate(-50%, 0) rotate(50deg);
+}
+
+second-hand .body, second-hand .top{
+    transform: translate(0,-5px);
+}
+
+.body{
+    height: 50%;
+    background: black;
+    border-radius: 20%;
+}
+
+.top{
+    height:5px;
+    width: 5px;
+    background: red;
+    border-radius: 100%;
+    margin:auto;
+}
+
+#hour-hand .body{
+    height: 25%;
+    transform: translate(0,100%);
+}
+
+#hour-hand .top{
+    height:7px;
+    width: 7px;
+    background: blue;
+}
+
+
+
+
+
+
