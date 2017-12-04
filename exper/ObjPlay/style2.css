@@ -100,7 +100,7 @@ fieldset *:nth-child(2) {
     padding: 0;
     background-color: limegreen;
     color: white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'indie flower', cursive;
     font-size: 1.8em;
     border: 0;
     border-radius: 8px;
@@ -120,21 +120,27 @@ fieldset *:nth-child(2) {
     main{
         margin: 0 10%;
     }
+    
     .content {
         border-radius: 20px;
         box-shadow: 2px 2px 20px black;
         padding: 30px;
+        
     }
+    
     fieldset {
         padding: 20px;
     }
+    
     header {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    
     .graph-form fieldset * {
         padding: 10px;
     }
+    
     #add {
         width: 20px;
         height: 20px;

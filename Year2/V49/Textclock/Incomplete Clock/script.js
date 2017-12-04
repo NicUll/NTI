@@ -14,6 +14,8 @@ function updateClock(){
     
     var currentTime = new Date();
     console.log(currentTime.getHours());
+    
+    
     /*Skriv kod som ska upprepas för att uppdatera klockan*/
     
 }
