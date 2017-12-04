@@ -10,17 +10,25 @@
 
 <body>
     <header>
-        <h1>Testkod</h1>
+        <h1>Budget</h1>
     </header>
 
     <main>
-        <section class="codebox">
+        <section class="content">
 
             <div id="display">
             </div>
 
             <div id="controller">
                 <form>
+                    <fieldset>
+                        <label for="type">Typ:</label>
+                        <select name="type" id="type">
+                            <option value="income">Inkomst</option>
+                            <option value="expense">Utgift</option>
+                        </select>
+                    </fieldset>
+                    
                     <fieldset>
                         <label for="category">Kategori:</label>
                         <input type="text" name="category" id="category">
@@ -33,9 +41,15 @@
 
                     <fieldset>
                         <label for="color">Färg:</label>
-                        <select name="color" id="color" S>
+                        <select name="color" id="color">
+                            <option value="red">Röd</option>
+                            <option value="blue">Blå</option>
+                            <option value="orange">Orange</option>
+                            <option value="pink">Rosa</option>
+                            <option value="green">Grön</option>
                         </select>
                     </fieldset>
+                    
                     <button id="add" type="button"><span>+</span></button>
                 </form>
             </div>

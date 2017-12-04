@@ -30,7 +30,7 @@ fieldset{
     border:0;
 }
 
-.codebox{
+.content{
     border-radius: 20px;
     box-shadow: 2px 2px 20px black;
     padding: 30px;
@@ -68,4 +68,6 @@ form{
     position:absolute;
     transform:translate(-50%,-50%);
 }
+
+
 
