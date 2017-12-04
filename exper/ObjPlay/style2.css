@@ -25,59 +25,25 @@ ul {
 }
 body {
     margin-bottom: 40px;
+    min-width: 320px;
 }
-
-header,
-main {
-    
-}
-
-form {
-    flex-direction: column;
+header {
+    margin: 10px 0;
+    text-align: center;
 }
 .content * {
     font-family: "indie flower";
 }
-#display {
-    font-size: 1.6em
-}
-fieldset {
-    display: inline-block;
-    width: 100%;
-}
-fieldset * {
-    padding: 10px;
-    font-size: 1.4em;
-}
-label {
-    font-weight: bold;
-    font-size: 1.6em;
-}
-fieldset *:nth-child(2) {
-    float: right;
-    width: 70%;
-}
 
-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-fieldset {
-    border: 0;
-}
+/*Graph-display*/
+
 #display {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     height: 300px;
-    border: 1px solid black;
-}
-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
+    border-bottom: 1px dashed gray;
+    font-size: 1.3em
 }
 .bar {
     width: 10%;
@@ -88,29 +54,72 @@ form {
 }
 .bar-value {
     transform: rotate(-90deg) translate(-40%);
+    text-shadow: 0px 0px 3px rgba(220, 220, 220, 0.8);
 }
 .bar-label {
     transform: translate(0, 100%);
 }
+
+/***************/
+
+
+/*Input form*/
+
 #controller {
     margin-top: 20px;
 }
+.graph-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.graph-form fieldset {
+    width: 100%;
+    border: 0;
+}
+.graph-form fieldset * {
+    font-size: 1.4em;
+}
+label {
+    font-weight: bold;
+    font-size: 1.6em;
+    display: inline-block;
+}
+fieldset *:nth-child(2) {
+    float: right;
+    width: 70%;
+}
+
+/*Add Button*/
+
 #add {
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 40px;
     padding: 0;
     background-color: limegreen;
     color: white;
     font-family: 'Indie Flower', cursive;
-    font-size: 1.3em;
+    font-size: 1.8em;
     border: 0;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 #add span {
     position: absolute;
     transform: translate(-50%, -50%);
 }
+
+/************/
+
+
+/*******************/
+
 @media screen and (min-width:850px) {
+    
+    main{
+        margin: 0 10%;
+    }
     .content {
         border-radius: 20px;
         box-shadow: 2px 2px 20px black;
@@ -118,5 +127,23 @@ form {
     }
     fieldset {
         padding: 20px;
+    }
+    header {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .graph-form fieldset * {
+        padding: 10px;
+    }
+    #add {
+        width: 20px;
+        height: 20px;
+        padding: 0;
+        background-color: limegreen;
+        color: white;
+        font-family: 'Indie Flower', cursive;
+        font-size: 1.3em;
+        border: 0;
+        border-radius: 50%;
     }
 }
