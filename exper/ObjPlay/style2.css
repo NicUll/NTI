@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans');
+
+/* Enkel CSS-reset */
+
+html {
+    box-sizing: border-box;
+    font-family: "open sans";
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin-bottom: 40px;
+}
+
+header,
+main {
+    
+}
+
+form {
+    flex-direction: column;
+}
+.content * {
+    font-family: "indie flower";
+}
+#display {
+    font-size: 1.6em
+}
+fieldset {
+    display: inline-block;
+    width: 100%;
+}
+fieldset * {
+    padding: 10px;
+    font-size: 1.4em;
+}
+label {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+fieldset *:nth-child(2) {
+    float: right;
+    width: 70%;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+fieldset {
+    border: 0;
+}
+#display {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 300px;
+    border: 1px solid black;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.bar {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.bar-value {
+    transform: rotate(-90deg) translate(-40%);
+}
+.bar-label {
+    transform: translate(0, 100%);
+}
+#controller {
+    margin-top: 20px;
+}
+#add {
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    background-color: limegreen;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3em;
+    border: 0;
+    border-radius: 50%;
+}
+#add span {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+@media screen and (min-width:850px) {
+    .content {
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px black;
+        padding: 30px;
+    }
+    fieldset {
+        padding: 20px;
+    }
+}
