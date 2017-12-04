@@ -3,7 +3,7 @@
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "open sans";
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -47,7 +47,30 @@ fieldset{
 form{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top:10px;
+}
+
+.bar{
+    width:10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+   
+    
+}
+
+.bar-value{
+    transform: rotate(-90deg) translate(-40%);
+}
+
+.bar-label{
+    transform: translate(0,100%);
+}
+
+#controller{
+    margin-top: 20px;
 }
 
 #add{
@@ -67,6 +90,62 @@ form{
 #add span{
     position:absolute;
     transform:translate(-50%,-50%);
+}
+
+@media screen and (max-width:850px){
+    body{
+        font-family: "open sans";
+        margin-bottom:40px;
+        min-width: 580px;
+    }
+    
+    form{
+        flex-direction: column;
+    }
+    
+    #display{
+        font-family: "indie flower";
+        font-size: 1.6em
+    }
+    
+    form *{
+        font-family: "indie flower";
+    }
+    
+    fieldset{
+        width: 100%;
+        padding:20px;
+        
+    }
+    
+    fieldset *{
+        padding: 10px;
+        font-size: 1.4em;
+    }
+    
+    label{
+        display:inline-block;
+        font-weight: bold;
+        font-size: 1.6em;
+    }
+    
+   
+    
+    fieldset *:nth-child(2){
+        float:right; 
+        width:70%;   
+        
+        
+    }
+    
+    /*
+    fieldset *:nth-child(2){
+        width: 50%;
+        position: relative;
+        right: 0;
+        
+        
+    }*/
 }
 
 
