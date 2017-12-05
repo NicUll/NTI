@@ -2,13 +2,15 @@ const second = 1;
 const minute = 60;
 const hour = 3600;
 
-
+var currentTime = new Date();
 var hourElement = document.getElementById("hour-hand");
 //Skapa minut och sekundelement här under
 var minuteElement = document.getElementById("minute-hand");
 var secondElement = document.getElementById("second-hand");
 
-var secondHand = new ClockHand(0,second);
+var secondHand = new ClockHand(currentTime.getSeconds(),second);
+var minuteHand = new ClockHand(currentTime.getMinutes(),minute);
+var hourHand = new ClockHand(currentTime.getHours(),hour);
 
 
 function ClockHand(startRotation, type){
@@ -20,7 +22,7 @@ function ClockHand(startRotation, type){
     }
 }
 
-function updateClockElements(element, hand){
+function updateClockElement(element, hand){
     element.style.transform = "translate(-50%,0) rotate(" + hand.rotation + "deg)";
 }
 
@@ -28,10 +30,15 @@ function updateClockElements(element, hand){
 
 
 function updateClock(){
-    var currentTime = new Date();
+    currentTime = new Date();
     
     secondHand.step();
-    updateClockElements(secondElement, secondHand);
+    minuteHand.step();
+    hourHand.step();
+    
+    updateClockElement(secondElement, secondHand);
+    updateClockElement(minuteElement, minuteHand);
+    updateClockElement(hourElement, hourHand);
     
 }
 
