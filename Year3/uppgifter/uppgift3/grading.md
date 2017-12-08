@@ -19,7 +19,7 @@ Utöver kraven på hemsidan så ska du också:
 
 ## Kunskapskrav
 
-**Betyget A**
+**Betyget E**
 
 |Kunskapskrav|  
 |-----|
