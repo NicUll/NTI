@@ -5,6 +5,7 @@ Responsiv design handlar om att utveckla hemsidan på ett sådant sätt att den 
 Lite länkar om ämnet:
 * [Responsive Design på W3School](https://www.w3schools.com/html/html_responsive.asp)
 * [Developing mobile apps](https://www.toptal.com/android/developing-mobile-web-apps-when-why-and-how)  
+* [Extremt många länkar att hämta information ifrån, alltså extremt](http://bradfrost.github.io/this-is-responsive/resources.html)
 
 [Uppgiftsbeskrivning](#task)  
 [Arbetsgång](#method)  
