@@ -1,3 +1,8 @@
+
+# HTML
+
+## Basic
+```HTML
 <!—kommentar -->
 
 <br /> self closing, XHTML, bara för att vara kompatibel med XML
@@ -17,33 +22,37 @@
 <ol><li>Lista</li></ol>
 <ul><li>oordnad lista</li></ul>
 <hr /> Horizontal linje
+```
 
-
-Tabeller
+## Tabeller
+```HTML
 <table> - Ny tabell
 <tr> Ny tabellrad
 <td> Ny tabellkolumn
-colspan=”2” Hur tabellen ska sträcka sig
-border=”2” Bordertjocklek
-bgcolor=”red”
 <tbody> och <thead>, lägger huvud och kropp
 I thead kan man använda <th> för titel
+```
 
-Styling
+## Block
+```HTML
 <div> används för att styla block, kort för ”division”
 <span> används för att styla t.ex. del av text
+```
 
 
-Vettigheter
+## Vettigheter
+```HTML
 <img src=”image.jpg” />
 <a href=”http://google.se” target=”_blank”>, öppnas i ny flik eller ruta
 <a href=”#anchor”>Link text</a> En anchor-tag. Hoppa på samma sida.
 Ett anchor görs med <a name=”anchor”></a>, ex:
 <a href=”#raptors”>Read more about raptors</a>
 <a name=”raptors”></a>
+```
 
 
-Formulär
+## Formulär
+```HTML
 <form> för formulär
 <form action=”en länk”></form>, redirectar någonstans när klart
 method=”GET” eller ”POST” – POST syns inte i URL:en
@@ -52,9 +61,10 @@ Fler typer är:
 radio – behöver value=”något”
 chechbox – behöver value=”något”
 submit – behöver value=”något”
- 
-HTML5
+```
 
+## HTML5-Specifikt
+```HTML
 <nav> - används för att länka till andra sidor eller sektioner på en sida.
 <article> - istället för <div> typ
 <section> - För att dela av hemsidan
@@ -68,9 +78,10 @@ HTML5
 	Samma attribut som ljudfiler.
 
 <progress min=”0” max=”100” value=”35”></progress> - använd med javasript för dynamik
+```
 
-
-Web storage
+## Web storage
+```
 sessionStorage()
 localStorage()
 
@@ -81,19 +92,28 @@ localStorage.clear(); - raderar alla värden
 Allt är samma med sessionStorage
 
 
-navigator.geolocation.getCurrentPosition(); - GPS
 
+```
+
+## Diverse
+
+```
 Dragbar:
 <img draggable=”true” /> - gör den dragbar, kräver JS.
+navigator.geolocation.getCurrentPosition(); - GPS
+```
 
-SVG
+## SVG
+```
 <svg width=”1000” height=”1000”> <circle cx=”80” cy=”80” r=”50” fill=”green” /> </svg> - gör en cirkel.
 <rect>, <line>, <polyline>, <ellipse>, <polygon>
 <animate> - för att animera
 <path> - gör en path, ritar
 <canvas> - gör en container för graphics
+```
 
-Formulär
+## Formulär
+```HTML
 Nytt är placeholders, de kan hinta på vad man ska skriva
 <input type=”text” placeholder=”email@example.com” autofocus/>
 autofocus används för att markera rutan direkt. required används när det måste fyllas i
@@ -113,4 +133,5 @@ Fler input types är:
 email, url, tel, color, date, datetime, datetime-local, month, number, range, search, time, week
 Fler attribut är:
 form, formaction, formenctype, formmethod, formnovalidate, formtarget, height, width, list, min, max, multiple, pattern(regex), placeholder, step
+```
 
